@@ -1,4 +1,4 @@
-﻿{
+{
   "operationalLayers": [
     {
       "id": "1807dded9db-layer-10",
@@ -5201,7 +5201,7 @@
           }
         ],
         "showAttachments": true,
-        "description": "<p>Inspection{DateChecked}&nbsp;</p><p>{expression/expr0}&nbsp;</p>",
+        "description": "<p>Inspection done on {DateChecked}&nbsp;</p><p>{expression/expr0}&nbsp;</p>",
         "expressionInfos": [
           {
             "name": "expr0",
