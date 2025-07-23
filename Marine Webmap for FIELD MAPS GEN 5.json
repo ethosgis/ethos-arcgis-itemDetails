@@ -3678,7 +3678,7 @@
     },
     {
       "id": "17eff150634-layer-8",
-      "title": "Surveillance polygons",
+      "title": "Surveillance Polygons",
       "url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Marine_Diver_Surveillance/FeatureServer/1",
       "visibility": false,
       "itemId": "42416b2c5b774086afa38586202c7090",
@@ -4021,7 +4021,7 @@
     },
     {
       "id": "17eff150635-layer-9",
-      "title": "Surveillance tracklog",
+      "title": "Surveillance Tracklog",
       "url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Marine_Diver_Surveillance/FeatureServer/0",
       "visibility": true,
       "itemId": "42416b2c5b774086afa38586202c7090",
