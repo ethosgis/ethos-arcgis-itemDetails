@@ -2094,7 +2094,639 @@
                 "angle": 0
               }
             }
-          ]
+          ],
+          "renderer": {
+            "type": "uniqueValue",
+            "field1": "PestSpecies",
+            "uniqueValueGroups": [
+              {
+                "classes": [
+                  {
+                    "label": "Australian droplet tunicate (Eudistoma elongatum)",
+                    "symbol": {
+                      "type": "esriSMS",
+                      "color": [
+                        255,
+                        222,
+                        62,
+                        255
+                      ],
+                      "angle": 0,
+                      "xoffset": 0,
+                      "yoffset": 0,
+                      "size": 6,
+                      "style": "esriSMSCircle",
+                      "outline": {
+                        "type": "esriSLS",
+                        "color": [
+                          26,
+                          26,
+                          26,
+                          255
+                        ],
+                        "width": 0.75,
+                        "style": "esriSLSSolid"
+                      }
+                    },
+                    "values": [
+                      [
+                        "AustralianDropletTunicate"
+                      ]
+                    ]
+                  },
+                  {
+                    "label": "Caulerpa (Caulerpa brachypus)",
+                    "symbol": {
+                      "type": "esriSMS",
+                      "color": [
+                        117,
+                        247,
+                        74,
+                        255
+                      ],
+                      "angle": 0,
+                      "xoffset": 0,
+                      "yoffset": 0,
+                      "size": 6,
+                      "style": "esriSMSCircle",
+                      "outline": {
+                        "type": "esriSLS",
+                        "color": [
+                          15,
+                          15,
+                          15,
+                          255
+                        ],
+                        "width": 0.75,
+                        "style": "esriSLSSolid"
+                      }
+                    },
+                    "values": [
+                      [
+                        "Caulerpa"
+                      ]
+                    ]
+                  },
+                  {
+                    "label": "Clavelina oblonga",
+                    "symbol": {
+                      "type": "esriSMS",
+                      "color": [
+                        102,
+                        255,
+                        224,
+                        255
+                      ],
+                      "angle": 0,
+                      "xoffset": 0,
+                      "yoffset": 0,
+                      "size": 6,
+                      "style": "esriSMSCircle",
+                      "outline": {
+                        "type": "esriSLS",
+                        "color": [
+                          26,
+                          26,
+                          26,
+                          255
+                        ],
+                        "width": 0.75,
+                        "style": "esriSLSSolid"
+                      }
+                    },
+                    "values": [
+                      [
+                        "ClavelinaOblonga"
+                      ]
+                    ]
+                  },
+                  {
+                    "label": "Didemnum  (Didemnum vexillum)",
+                    "symbol": {
+                      "type": "esriSMS",
+                      "color": [
+                        107,
+                        107,
+                        214,
+                        255
+                      ],
+                      "angle": 0,
+                      "xoffset": 0,
+                      "yoffset": 0,
+                      "size": 6,
+                      "style": "esriSMSCircle",
+                      "outline": {
+                        "type": "esriSLS",
+                        "color": [
+                          13,
+                          12,
+                          12,
+                          255
+                        ],
+                        "width": 0.75,
+                        "style": "esriSLSSolid"
+                      }
+                    },
+                    "values": [
+                      [
+                        "Didemnum"
+                      ]
+                    ]
+                  },
+                  {
+                    "label": "Lightbulb ascidian (Clavelina lepadiformis)",
+                    "symbol": {
+                      "type": "esriSMS",
+                      "color": [
+                        183,
+                        129,
+                        74,
+                        255
+                      ],
+                      "angle": 0,
+                      "xoffset": 0,
+                      "yoffset": 0,
+                      "size": 6,
+                      "style": "esriSMSCircle",
+                      "outline": {
+                        "type": "esriSLS",
+                        "color": [
+                          26,
+                          26,
+                          26,
+                          255
+                        ],
+                        "width": 0.75,
+                        "style": "esriSLSSolid"
+                      }
+                    },
+                    "values": [
+                      [
+                        "LightbulbAscidian"
+                      ]
+                    ]
+                  },
+                  {
+                    "label": "Mediterranean fanworm (Sabella spallanzanii)",
+                    "symbol": {
+                      "type": "esriSMS",
+                      "color": [
+                        237,
+                        81,
+                        81,
+                        255
+                      ],
+                      "angle": 0,
+                      "xoffset": 0,
+                      "yoffset": 0,
+                      "size": 6,
+                      "style": "esriSMSCircle",
+                      "outline": {
+                        "type": "esriSLS",
+                        "color": [
+                          26,
+                          26,
+                          26,
+                          255
+                        ],
+                        "width": 0.75,
+                        "style": "esriSLSSolid"
+                      }
+                    },
+                    "values": [
+                      [
+                        "MediterraneanFanworm"
+                      ]
+                    ]
+                  },
+                  {
+                    "label": "Pyura sea squirt spp.  (Pyura praepetualis and Pyura doppelgangera)",
+                    "symbol": {
+                      "type": "esriSMS",
+                      "color": [
+                        247,
+                        137,
+                        216,
+                        255
+                      ],
+                      "angle": 0,
+                      "xoffset": 0,
+                      "yoffset": 0,
+                      "size": 6,
+                      "style": "esriSMSCircle",
+                      "outline": {
+                        "type": "esriSLS",
+                        "color": [
+                          26,
+                          26,
+                          26,
+                          255
+                        ],
+                        "width": 0.75,
+                        "style": "esriSLSSolid"
+                      }
+                    },
+                    "values": [
+                      [
+                        "PyuraSeaSquirt"
+                      ]
+                    ]
+                  },
+                  {
+                    "label": "Styela sea squirt (Styela clava)",
+                    "symbol": {
+                      "type": "esriSMS",
+                      "color": [
+                        158,
+                        85,
+                        156,
+                        255
+                      ],
+                      "angle": 0,
+                      "xoffset": 0,
+                      "yoffset": 0,
+                      "size": 6,
+                      "style": "esriSMSCircle",
+                      "outline": {
+                        "type": "esriSLS",
+                        "color": [
+                          26,
+                          26,
+                          26,
+                          255
+                        ],
+                        "width": 0.75,
+                        "style": "esriSLSSolid"
+                      }
+                    },
+                    "values": [
+                      [
+                        "StyelaSeaSquirt"
+                      ]
+                    ]
+                  },
+                  {
+                    "label": "Wakame/Undaria (Undaria pinnatifida)",
+                    "symbol": {
+                      "type": "esriSMS",
+                      "color": [
+                        255,
+                        148,
+                        25,
+                        255
+                      ],
+                      "angle": 0,
+                      "xoffset": 0,
+                      "yoffset": 0,
+                      "size": 6,
+                      "style": "esriSMSCircle",
+                      "outline": {
+                        "type": "esriSLS",
+                        "color": [
+                          26,
+                          26,
+                          26,
+                          255
+                        ],
+                        "width": 0.75,
+                        "style": "esriSLSSolid"
+                      }
+                    },
+                    "values": [
+                      [
+                        "WakameUndaria"
+                      ]
+                    ]
+                  },
+                  {
+                    "label": "Other",
+                    "symbol": {
+                      "type": "esriSMS",
+                      "color": [
+                        201,
+                        201,
+                        201,
+                        255
+                      ],
+                      "angle": 0,
+                      "xoffset": 0,
+                      "yoffset": 0,
+                      "size": 6,
+                      "style": "esriSMSCircle",
+                      "outline": {
+                        "type": "esriSLS",
+                        "color": [
+                          26,
+                          26,
+                          26,
+                          255
+                        ],
+                        "width": 0.75,
+                        "style": "esriSLSSolid"
+                      }
+                    },
+                    "values": [
+                      [
+                        "Other"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "uniqueValueInfos": [
+              {
+                "label": "Australian droplet tunicate (Eudistoma elongatum)",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    255,
+                    222,
+                    62,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      26,
+                      26,
+                      26,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "value": "AustralianDropletTunicate"
+              },
+              {
+                "label": "Caulerpa (Caulerpa brachypus)",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    117,
+                    247,
+                    74,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      15,
+                      15,
+                      15,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "value": "Caulerpa"
+              },
+              {
+                "label": "Clavelina oblonga",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    102,
+                    255,
+                    224,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      26,
+                      26,
+                      26,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "value": "ClavelinaOblonga"
+              },
+              {
+                "label": "Didemnum  (Didemnum vexillum)",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    107,
+                    107,
+                    214,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      13,
+                      12,
+                      12,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "value": "Didemnum"
+              },
+              {
+                "label": "Lightbulb ascidian (Clavelina lepadiformis)",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    183,
+                    129,
+                    74,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      26,
+                      26,
+                      26,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "value": "LightbulbAscidian"
+              },
+              {
+                "label": "Mediterranean fanworm (Sabella spallanzanii)",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    237,
+                    81,
+                    81,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      26,
+                      26,
+                      26,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "value": "MediterraneanFanworm"
+              },
+              {
+                "label": "Pyura sea squirt spp.  (Pyura praepetualis and Pyura doppelgangera)",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    247,
+                    137,
+                    216,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      26,
+                      26,
+                      26,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "value": "PyuraSeaSquirt"
+              },
+              {
+                "label": "Styela sea squirt (Styela clava)",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    158,
+                    85,
+                    156,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      26,
+                      26,
+                      26,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "value": "StyelaSeaSquirt"
+              },
+              {
+                "label": "Wakame/Undaria (Undaria pinnatifida)",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    255,
+                    148,
+                    25,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      26,
+                      26,
+                      26,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "value": "WakameUndaria"
+              },
+              {
+                "label": "Other",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    201,
+                    201,
+                    201,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      26,
+                      26,
+                      26,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "value": "Other"
+              }
+            ]
+          }
         }
       },
       "formInfo": {
@@ -5565,9 +6197,9 @@
           "latestWkid": 3857,
           "wkid": 102100
         },
-        "xmin": 19313172.150427833,
+        "xmin": 19208606.29573372,
         "ymin": -5023308.340841083,
-        "xmax": 19804203.620131783,
+        "xmax": 19908769.474825896,
         "ymax": -4258938.057989359
       }
     }
