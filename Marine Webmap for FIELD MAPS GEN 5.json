@@ -217,6 +217,439 @@
       "layerType": "GroupLayer"
     },
     {
+      "id": "17f0f9ac762-layer-9",
+      "disablePopup": true,
+      "title": "Hazard",
+      "url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Berths_Boats_and_Records_HAZARDS_view/FeatureServer/0",
+      "itemId": "8d304cbfb8ee413aa51c7676007f3177",
+      "layerType": "ArcGISFeatureLayer",
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields",
+            "description": "",
+            "fieldInfos": [
+              {
+                "fieldName": "AreaName",
+                "isEditable": true,
+                "label": "AreaName",
+                "visible": true
+              },
+              {
+                "fieldName": "BerthNumber",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "BerthNumber",
+                "visible": true
+              },
+              {
+                "fieldName": "Comments",
+                "isEditable": true,
+                "label": "Comments",
+                "visible": true
+              },
+              {
+                "fieldName": "CopyCurrentBoat",
+                "isEditable": true,
+                "label": "Copy current boat at this berth",
+                "visible": true
+              },
+              {
+                "fieldName": "DateOfMostRecentCheck",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "isEditable": true,
+                "label": "Date of Most Recent Check",
+                "visible": true
+              },
+              {
+                "fieldName": "DistanceBuffered",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "DistanceBuffered",
+                "visible": true
+              },
+              {
+                "fieldName": "GLOBALIDTEXT",
+                "isEditable": true,
+                "label": "",
+                "visible": true
+              },
+              {
+                "fieldName": "IDofCurrentBoat",
+                "isEditable": true,
+                "label": "IDofCurrentBoat",
+                "visible": true
+              },
+              {
+                "fieldName": "MarinaPier",
+                "isEditable": true,
+                "label": "MarinaPier",
+                "visible": true
+              },
+              {
+                "fieldName": "MH_ContactInfo",
+                "isEditable": true,
+                "label": "MH Contact",
+                "visible": true
+              },
+              {
+                "fieldName": "MooringHolder",
+                "isEditable": true,
+                "label": "Mooring Holder",
+                "visible": true
+              },
+              {
+                "fieldName": "MooringTagNumber",
+                "isEditable": true,
+                "label": "Mooring tag number",
+                "visible": true
+              },
+              {
+                "fieldName": "MostRecentConcatBoatDetails",
+                "isEditable": true,
+                "label": "Most recent concatenated boat details",
+                "visible": true
+              },
+              {
+                "fieldName": "MostRecent_LevelOfFoul",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "",
+                "visible": true
+              },
+              {
+                "fieldName": "MostRecentHazardBoolean",
+                "isEditable": true,
+                "label": "",
+                "visible": true
+              },
+              {
+                "fieldName": "MostRecentHazardComment",
+                "isEditable": true,
+                "label": "",
+                "visible": true
+              },
+              {
+                "fieldName": "NameOfMostRecentBoat",
+                "isEditable": true,
+                "label": "NameOfMostRecentBoat",
+                "visible": true
+              },
+              {
+                "fieldName": "PestFoundOnMostRecentRecord",
+                "isEditable": true,
+                "label": "Pest Found On Most Recent Record",
+                "visible": true
+              },
+              {
+                "fieldName": "PlaceID",
+                "isEditable": true,
+                "label": "PlaceID",
+                "visible": true
+              },
+              {
+                "fieldName": "PlaceType",
+                "isEditable": true,
+                "label": "PlaceType",
+                "visible": true
+              },
+              {
+                "fieldName": "Region",
+                "isEditable": true,
+                "label": "Region",
+                "visible": true
+              },
+              {
+                "fieldName": "Source",
+                "isEditable": true,
+                "label": "Source",
+                "visible": true
+              },
+              {
+                "fieldName": "SwingRadius",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "Swing Radius (m)",
+                "visible": true
+              },
+              {
+                "fieldName": "TestField",
+                "isEditable": true,
+                "label": "TestField",
+                "visible": true
+              },
+              {
+                "fieldName": "BoatPresentBooleanMostRecentChe",
+                "isEditable": true,
+                "label": "Was there a boat present on the most recent check?",
+                "visible": true
+              }
+            ],
+            "title": ""
+          },
+          {
+            "type": "attachments",
+            "description": "",
+            "displayType": "preview",
+            "title": ""
+          }
+        ],
+        "showAttachments": true,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "isEditable": true,
+            "label": "OBJECTID",
+            "visible": false
+          },
+          {
+            "fieldName": "AreaName",
+            "isEditable": true,
+            "label": "AreaName",
+            "visible": true
+          },
+          {
+            "fieldName": "BerthNumber",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "BerthNumber",
+            "visible": true
+          },
+          {
+            "fieldName": "Comments",
+            "isEditable": true,
+            "label": "Comments",
+            "visible": true
+          },
+          {
+            "fieldName": "CopyCurrentBoat",
+            "isEditable": true,
+            "label": "Copy current boat at this berth",
+            "visible": true
+          },
+          {
+            "fieldName": "CreationDate",
+            "format": {
+              "dateFormat": "longMonthDayYear",
+              "digitSeparator": false
+            },
+            "isEditable": true,
+            "label": "CreationDate",
+            "visible": false
+          },
+          {
+            "fieldName": "Creator",
+            "isEditable": true,
+            "label": "Creator",
+            "visible": false
+          },
+          {
+            "fieldName": "DateOfMostRecentCheck",
+            "format": {
+              "dateFormat": "longMonthDayYear",
+              "digitSeparator": false
+            },
+            "isEditable": true,
+            "label": "Date of Most Recent Check",
+            "visible": true
+          },
+          {
+            "fieldName": "DistanceBuffered",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "DistanceBuffered",
+            "visible": true
+          },
+          {
+            "fieldName": "EditDate",
+            "format": {
+              "dateFormat": "longMonthDayYear",
+              "digitSeparator": false
+            },
+            "isEditable": true,
+            "label": "EditDate",
+            "visible": false
+          },
+          {
+            "fieldName": "Editor",
+            "isEditable": true,
+            "label": "Editor",
+            "visible": false
+          },
+          {
+            "fieldName": "GlobalID",
+            "isEditable": true,
+            "label": "GlobalID",
+            "visible": false
+          },
+          {
+            "fieldName": "GLOBALIDTEXT",
+            "isEditable": true,
+            "label": "",
+            "visible": true
+          },
+          {
+            "fieldName": "IDofCurrentBoat",
+            "isEditable": true,
+            "label": "IDofCurrentBoat",
+            "visible": true
+          },
+          {
+            "fieldName": "MarinaPier",
+            "isEditable": true,
+            "label": "MarinaPier",
+            "visible": true
+          },
+          {
+            "fieldName": "MH_ContactInfo",
+            "isEditable": true,
+            "label": "MH Contact",
+            "visible": true
+          },
+          {
+            "fieldName": "MooringHolder",
+            "isEditable": true,
+            "label": "Mooring Holder",
+            "visible": true
+          },
+          {
+            "fieldName": "MooringTagNumber",
+            "isEditable": true,
+            "label": "Mooring tag number",
+            "visible": true
+          },
+          {
+            "fieldName": "MostRecentConcatBoatDetails",
+            "isEditable": true,
+            "label": "Most recent concatenated boat details",
+            "visible": true
+          },
+          {
+            "fieldName": "MostRecent_LevelOfFoul",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "",
+            "visible": true
+          },
+          {
+            "fieldName": "MostRecentHazardBoolean",
+            "isEditable": true,
+            "label": "",
+            "visible": true
+          },
+          {
+            "fieldName": "MostRecentHazardComment",
+            "isEditable": true,
+            "label": "",
+            "visible": true
+          },
+          {
+            "fieldName": "NameOfMostRecentBoat",
+            "isEditable": true,
+            "label": "NameOfMostRecentBoat",
+            "visible": true
+          },
+          {
+            "fieldName": "PestFoundOnMostRecentRecord",
+            "isEditable": true,
+            "label": "Pest Found On Most Recent Record",
+            "visible": true
+          },
+          {
+            "fieldName": "PlaceID",
+            "isEditable": true,
+            "label": "PlaceID",
+            "visible": true
+          },
+          {
+            "fieldName": "PlaceType",
+            "isEditable": true,
+            "label": "PlaceType",
+            "visible": true
+          },
+          {
+            "fieldName": "Region",
+            "isEditable": true,
+            "label": "Region",
+            "visible": true
+          },
+          {
+            "fieldName": "Shape__Area",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "Shape__Area",
+            "visible": false
+          },
+          {
+            "fieldName": "Shape__Length",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "Shape__Length",
+            "visible": false
+          },
+          {
+            "fieldName": "Source",
+            "isEditable": true,
+            "label": "Source",
+            "visible": true
+          },
+          {
+            "fieldName": "SwingRadius",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "Swing Radius (m)",
+            "visible": true
+          },
+          {
+            "fieldName": "TestField",
+            "isEditable": true,
+            "label": "TestField",
+            "visible": true
+          },
+          {
+            "fieldName": "BoatPresentBooleanMostRecentChe",
+            "isEditable": true,
+            "label": "Was there a boat present on the most recent check?",
+            "visible": true
+          }
+        ],
+        "title": "Berths_Boats_and_Records_HAZARDS_view: {AreaName}"
+      }
+    },
+    {
       "id": "17de49dd79b-layer-12",
       "title": "Repeatable Surveillance Areas",
       "url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Surveillance_records_and_inspections/FeatureServer/8",
@@ -4079,439 +4512,6 @@
         ],
         "showLastEditInfo": false,
         "title": "Diver Surveillance tracklog"
-      }
-    },
-    {
-      "id": "17f0f9ac762-layer-9",
-      "disablePopup": true,
-      "title": "Hazard",
-      "url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Berths_Boats_and_Records_HAZARDS_view/FeatureServer/0",
-      "itemId": "8d304cbfb8ee413aa51c7676007f3177",
-      "layerType": "ArcGISFeatureLayer",
-      "popupInfo": {
-        "popupElements": [
-          {
-            "type": "fields",
-            "description": "",
-            "fieldInfos": [
-              {
-                "fieldName": "AreaName",
-                "isEditable": true,
-                "label": "AreaName",
-                "visible": true
-              },
-              {
-                "fieldName": "BerthNumber",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 0
-                },
-                "isEditable": true,
-                "label": "BerthNumber",
-                "visible": true
-              },
-              {
-                "fieldName": "Comments",
-                "isEditable": true,
-                "label": "Comments",
-                "visible": true
-              },
-              {
-                "fieldName": "CopyCurrentBoat",
-                "isEditable": true,
-                "label": "Copy current boat at this berth",
-                "visible": true
-              },
-              {
-                "fieldName": "DateOfMostRecentCheck",
-                "format": {
-                  "dateFormat": "longMonthDayYear",
-                  "digitSeparator": false
-                },
-                "isEditable": true,
-                "label": "Date of Most Recent Check",
-                "visible": true
-              },
-              {
-                "fieldName": "DistanceBuffered",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 0
-                },
-                "isEditable": true,
-                "label": "DistanceBuffered",
-                "visible": true
-              },
-              {
-                "fieldName": "GLOBALIDTEXT",
-                "isEditable": true,
-                "label": "",
-                "visible": true
-              },
-              {
-                "fieldName": "IDofCurrentBoat",
-                "isEditable": true,
-                "label": "IDofCurrentBoat",
-                "visible": true
-              },
-              {
-                "fieldName": "MarinaPier",
-                "isEditable": true,
-                "label": "MarinaPier",
-                "visible": true
-              },
-              {
-                "fieldName": "MH_ContactInfo",
-                "isEditable": true,
-                "label": "MH Contact",
-                "visible": true
-              },
-              {
-                "fieldName": "MooringHolder",
-                "isEditable": true,
-                "label": "Mooring Holder",
-                "visible": true
-              },
-              {
-                "fieldName": "MooringTagNumber",
-                "isEditable": true,
-                "label": "Mooring tag number",
-                "visible": true
-              },
-              {
-                "fieldName": "MostRecentConcatBoatDetails",
-                "isEditable": true,
-                "label": "Most recent concatenated boat details",
-                "visible": true
-              },
-              {
-                "fieldName": "MostRecent_LevelOfFoul",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 0
-                },
-                "isEditable": true,
-                "label": "",
-                "visible": true
-              },
-              {
-                "fieldName": "MostRecentHazardBoolean",
-                "isEditable": true,
-                "label": "",
-                "visible": true
-              },
-              {
-                "fieldName": "MostRecentHazardComment",
-                "isEditable": true,
-                "label": "",
-                "visible": true
-              },
-              {
-                "fieldName": "NameOfMostRecentBoat",
-                "isEditable": true,
-                "label": "NameOfMostRecentBoat",
-                "visible": true
-              },
-              {
-                "fieldName": "PestFoundOnMostRecentRecord",
-                "isEditable": true,
-                "label": "Pest Found On Most Recent Record",
-                "visible": true
-              },
-              {
-                "fieldName": "PlaceID",
-                "isEditable": true,
-                "label": "PlaceID",
-                "visible": true
-              },
-              {
-                "fieldName": "PlaceType",
-                "isEditable": true,
-                "label": "PlaceType",
-                "visible": true
-              },
-              {
-                "fieldName": "Region",
-                "isEditable": true,
-                "label": "Region",
-                "visible": true
-              },
-              {
-                "fieldName": "Source",
-                "isEditable": true,
-                "label": "Source",
-                "visible": true
-              },
-              {
-                "fieldName": "SwingRadius",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 2
-                },
-                "isEditable": true,
-                "label": "Swing Radius (m)",
-                "visible": true
-              },
-              {
-                "fieldName": "TestField",
-                "isEditable": true,
-                "label": "TestField",
-                "visible": true
-              },
-              {
-                "fieldName": "BoatPresentBooleanMostRecentChe",
-                "isEditable": true,
-                "label": "Was there a boat present on the most recent check?",
-                "visible": true
-              }
-            ],
-            "title": ""
-          },
-          {
-            "type": "attachments",
-            "description": "",
-            "displayType": "preview",
-            "title": ""
-          }
-        ],
-        "showAttachments": true,
-        "fieldInfos": [
-          {
-            "fieldName": "OBJECTID",
-            "isEditable": true,
-            "label": "OBJECTID",
-            "visible": false
-          },
-          {
-            "fieldName": "AreaName",
-            "isEditable": true,
-            "label": "AreaName",
-            "visible": true
-          },
-          {
-            "fieldName": "BerthNumber",
-            "format": {
-              "digitSeparator": true,
-              "places": 0
-            },
-            "isEditable": true,
-            "label": "BerthNumber",
-            "visible": true
-          },
-          {
-            "fieldName": "Comments",
-            "isEditable": true,
-            "label": "Comments",
-            "visible": true
-          },
-          {
-            "fieldName": "CopyCurrentBoat",
-            "isEditable": true,
-            "label": "Copy current boat at this berth",
-            "visible": true
-          },
-          {
-            "fieldName": "CreationDate",
-            "format": {
-              "dateFormat": "longMonthDayYear",
-              "digitSeparator": false
-            },
-            "isEditable": true,
-            "label": "CreationDate",
-            "visible": false
-          },
-          {
-            "fieldName": "Creator",
-            "isEditable": true,
-            "label": "Creator",
-            "visible": false
-          },
-          {
-            "fieldName": "DateOfMostRecentCheck",
-            "format": {
-              "dateFormat": "longMonthDayYear",
-              "digitSeparator": false
-            },
-            "isEditable": true,
-            "label": "Date of Most Recent Check",
-            "visible": true
-          },
-          {
-            "fieldName": "DistanceBuffered",
-            "format": {
-              "digitSeparator": true,
-              "places": 0
-            },
-            "isEditable": true,
-            "label": "DistanceBuffered",
-            "visible": true
-          },
-          {
-            "fieldName": "EditDate",
-            "format": {
-              "dateFormat": "longMonthDayYear",
-              "digitSeparator": false
-            },
-            "isEditable": true,
-            "label": "EditDate",
-            "visible": false
-          },
-          {
-            "fieldName": "Editor",
-            "isEditable": true,
-            "label": "Editor",
-            "visible": false
-          },
-          {
-            "fieldName": "GlobalID",
-            "isEditable": true,
-            "label": "GlobalID",
-            "visible": false
-          },
-          {
-            "fieldName": "GLOBALIDTEXT",
-            "isEditable": true,
-            "label": "",
-            "visible": true
-          },
-          {
-            "fieldName": "IDofCurrentBoat",
-            "isEditable": true,
-            "label": "IDofCurrentBoat",
-            "visible": true
-          },
-          {
-            "fieldName": "MarinaPier",
-            "isEditable": true,
-            "label": "MarinaPier",
-            "visible": true
-          },
-          {
-            "fieldName": "MH_ContactInfo",
-            "isEditable": true,
-            "label": "MH Contact",
-            "visible": true
-          },
-          {
-            "fieldName": "MooringHolder",
-            "isEditable": true,
-            "label": "Mooring Holder",
-            "visible": true
-          },
-          {
-            "fieldName": "MooringTagNumber",
-            "isEditable": true,
-            "label": "Mooring tag number",
-            "visible": true
-          },
-          {
-            "fieldName": "MostRecentConcatBoatDetails",
-            "isEditable": true,
-            "label": "Most recent concatenated boat details",
-            "visible": true
-          },
-          {
-            "fieldName": "MostRecent_LevelOfFoul",
-            "format": {
-              "digitSeparator": true,
-              "places": 0
-            },
-            "isEditable": true,
-            "label": "",
-            "visible": true
-          },
-          {
-            "fieldName": "MostRecentHazardBoolean",
-            "isEditable": true,
-            "label": "",
-            "visible": true
-          },
-          {
-            "fieldName": "MostRecentHazardComment",
-            "isEditable": true,
-            "label": "",
-            "visible": true
-          },
-          {
-            "fieldName": "NameOfMostRecentBoat",
-            "isEditable": true,
-            "label": "NameOfMostRecentBoat",
-            "visible": true
-          },
-          {
-            "fieldName": "PestFoundOnMostRecentRecord",
-            "isEditable": true,
-            "label": "Pest Found On Most Recent Record",
-            "visible": true
-          },
-          {
-            "fieldName": "PlaceID",
-            "isEditable": true,
-            "label": "PlaceID",
-            "visible": true
-          },
-          {
-            "fieldName": "PlaceType",
-            "isEditable": true,
-            "label": "PlaceType",
-            "visible": true
-          },
-          {
-            "fieldName": "Region",
-            "isEditable": true,
-            "label": "Region",
-            "visible": true
-          },
-          {
-            "fieldName": "Shape__Area",
-            "format": {
-              "digitSeparator": true,
-              "places": 2
-            },
-            "isEditable": true,
-            "label": "Shape__Area",
-            "visible": false
-          },
-          {
-            "fieldName": "Shape__Length",
-            "format": {
-              "digitSeparator": true,
-              "places": 2
-            },
-            "isEditable": true,
-            "label": "Shape__Length",
-            "visible": false
-          },
-          {
-            "fieldName": "Source",
-            "isEditable": true,
-            "label": "Source",
-            "visible": true
-          },
-          {
-            "fieldName": "SwingRadius",
-            "format": {
-              "digitSeparator": true,
-              "places": 2
-            },
-            "isEditable": true,
-            "label": "Swing Radius (m)",
-            "visible": true
-          },
-          {
-            "fieldName": "TestField",
-            "isEditable": true,
-            "label": "TestField",
-            "visible": true
-          },
-          {
-            "fieldName": "BoatPresentBooleanMostRecentChe",
-            "isEditable": true,
-            "label": "Was there a boat present on the most recent check?",
-            "visible": true
-          }
-        ],
-        "title": "Berths_Boats_and_Records_HAZARDS_view: {AreaName}"
       }
     },
     {
