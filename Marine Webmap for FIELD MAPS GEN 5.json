@@ -1,0 +1,5588 @@
+﻿{
+	"applicationProperties": {
+		"offline": {
+			"editableLayers": {
+				"download": "featuresAndAttachments",
+				"sync": "syncFeaturesAndAttachments"
+			},
+			"readonlyLayers": {
+				"downloadAttachments": true
+			}
+		},
+		"viewing": {
+			"search": {
+				"disablePlaceFinder": false,
+				"enabled": true,
+				"hintText": "Place or Address"
+			}
+		}
+	},
+	"authoringApp": "ArcGIS Field Maps Designer",
+	"authoringAppVersion": "25.2.2+3a58332",
+	"baseMap": {
+		"baseMapLayers": [
+			{
+				"id": "17ba3926d0e-layer-96",
+				"itemId": "10df2279f9684e4a9f6a7f08febac2a9",
+				"layerType": "ArcGISTiledMapServiceLayer",
+				"title": "World Imagery",
+				"url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer"
+			}
+		],
+		"title": "World Imagery"
+	},
+	"initialState": {
+		"viewpoint": {
+			"rotation": 1.6946279888134455,
+			"targetGeometry": {
+				"spatialReference": {
+					"latestWkid": 3857,
+					"wkid": 102100
+				},
+				"xmax": 19908769.474825896,
+				"xmin": 19208606.29573372,
+				"ymax": -4258938.057989359,
+				"ymin": -5023308.340841083
+			}
+		}
+	},
+	"operationalLayers": [
+		{
+			"id": "1807dded9db-layer-10",
+			"layerType": "GroupLayer",
+			"layers": [
+				{
+					"capabilities": "Query,Sync",
+					"id": "1807ddedc41-layer-11",
+					"itemId": "232fb34edcb7430aa5aab4e66629d079",
+					"layerDefinition": {
+						"capabilities": "Query,Sync"
+					},
+					"layerType": "ArcGISFeatureLayer",
+					"title": "MarinaManagementZone",
+					"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/AC_MarineReferenceLayers/FeatureServer/3"
+				},
+				{
+					"capabilities": "Query,Sync",
+					"id": "1807ddedc42-layer-12",
+					"itemId": "232fb34edcb7430aa5aab4e66629d079",
+					"layerDefinition": {
+						"capabilities": "Query,Sync"
+					},
+					"layerType": "ArcGISFeatureLayer",
+					"title": "MarineFarms",
+					"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/AC_MarineReferenceLayers/FeatureServer/2"
+				},
+				{
+					"capabilities": "Query,Sync",
+					"id": "1807ddedc42-layer-13",
+					"itemId": "232fb34edcb7430aa5aab4e66629d079",
+					"layerDefinition": {
+						"capabilities": "Query,Sync"
+					},
+					"layerType": "ArcGISFeatureLayer",
+					"title": "BoatHardStands",
+					"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/AC_MarineReferenceLayers/FeatureServer/1"
+				},
+				{
+					"formInfo": {
+						"formElements": [
+							{
+								"editable": true,
+								"fieldName": "Date",
+								"inputType": {
+									"includeTime": true,
+									"type": "datetime-picker"
+								},
+								"label": "Date",
+								"type": "field"
+							},
+							{
+								"editable": true,
+								"fieldName": "StructureName",
+								"inputType": {
+									"maxLength": 255,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Structure Name",
+								"type": "field"
+							},
+							{
+								"editable": true,
+								"fieldName": "STRUCTURET",
+								"inputType": {
+									"noValueOptionLabel": "No value",
+									"showNoValueOption": true,
+									"type": "combo-box"
+								},
+								"label": "STRUCTURE TYPE",
+								"type": "field"
+							},
+							{
+								"editable": true,
+								"fieldName": "COMMENTS",
+								"inputType": {
+									"maxLength": 254,
+									"minLength": 0,
+									"type": "text-area"
+								},
+								"label": "COMMENTS",
+								"type": "field"
+							}
+						],
+						"title": "MarineStructures"
+					},
+					"id": "1807ddedc42-layer-14",
+					"itemId": "232fb34edcb7430aa5aab4e66629d079",
+					"layerType": "ArcGISFeatureLayer",
+					"title": "MarineStructures",
+					"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/AC_MarineReferenceLayers/FeatureServer/0"
+				}
+			],
+			"title": "AC_MarineReferenceLayers",
+			"visibility": false
+		},
+		{
+			"id": "18580f65887-layer-20",
+			"layerType": "GroupLayer",
+			"layers": [
+				{
+					"capabilities": "Query,Sync",
+					"disablePopup": true,
+					"id": "18580f5fa8f-layer-18",
+					"itemId": "ec541c35414a4faf8feb56b6803514b7",
+					"layerDefinition": {
+						"capabilities": "Query,Sync",
+						"drawingInfo": {
+							"renderer": {
+								"symbol": {
+									"color": [
+										0,
+										0,
+										0,
+										0
+									],
+									"outline": {
+										"color": [
+											230,
+											230,
+											0,
+											84
+										],
+										"style": "esriSLSShortDashDotDot",
+										"type": "esriSLS",
+										"width": 1
+									},
+									"style": "esriSFSSolid",
+									"type": "esriSFS"
+								},
+								"type": "simple"
+							}
+						},
+						"featureReduction": null
+					},
+					"layerType": "ArcGISFeatureLayer",
+					"title": "Harbours",
+					"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Harbour_and_status_record/FeatureServer/2"
+				},
+				{
+					"disablePopup": true,
+					"id": "183a0fd5bb5-layer-16",
+					"itemId": "ef70010cfdf64e18a76a782082c88da0",
+					"layerDefinition": {
+						"drawingInfo": {
+							"renderer": {
+								"symbol": {
+									"color": [
+										0,
+										0,
+										0,
+										0
+									],
+									"outline": {
+										"color": [
+											252,
+											252,
+											252,
+											125
+										],
+										"style": "esriSLSDash",
+										"type": "esriSLS",
+										"width": 0.75
+									},
+									"style": "esriSFSSolid",
+									"type": "esriSFS"
+								},
+								"type": "simple"
+							}
+						},
+						"featureReduction": null
+					},
+					"layerType": "ArcGISFeatureLayer",
+					"title": "RegionalCounciBoundaries",
+					"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/RegionalCounciBoundaries/FeatureServer/0"
+				},
+				{
+					"disablePopup": true,
+					"id": "18580e3d52c-layer-16",
+					"itemId": "ca35b84e2f804c76a7b8d01492575822",
+					"layerDefinition": {
+						"drawingInfo": {
+							"renderer": {
+								"symbol": {
+									"color": [
+										0,
+										0,
+										0,
+										0
+									],
+									"outline": {
+										"color": [
+											201,
+											201,
+											201,
+											71
+										],
+										"style": "esriSLSLongDash",
+										"type": "esriSLS",
+										"width": 1
+									},
+									"style": "esriSFSSolid",
+									"type": "esriSFS"
+								},
+								"type": "simple"
+							}
+						},
+						"featureReduction": null
+					},
+					"layerType": "ArcGISFeatureLayer",
+					"title": "Marine Areas (Convex Hull)",
+					"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/MarineAreasConvexHull/FeatureServer/0"
+				}
+			],
+			"title": "Place Reference"
+		},
+		{
+			"featureEffect": null,
+			"formInfo": {
+				"expressionInfos": [
+					{
+						"expression": "false",
+						"name": "expr/system/false",
+						"returnType": "boolean",
+						"title": "False"
+					},
+					{
+						"expression": "true",
+						"name": "expr/system/true",
+						"returnType": "boolean",
+						"title": "True"
+					}
+				],
+				"formElements": [
+					{
+						"editable": true,
+						"fieldName": "Area_Name",
+						"inputType": {
+							"maxLength": 55,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Area Name",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "SurveillanceType",
+						"inputType": {
+							"noValueOptionLabel": "No value",
+							"showNoValueOption": true,
+							"type": "combo-box"
+						},
+						"label": "Type of Surveillance",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "water_type",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Water Type",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "WharfPilesChecked",
+						"inputType": {
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Number of piles",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"editableExpression": "expr/system/true",
+						"fieldName": "LengthPontoons",
+						"inputType": {
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Length of Pontoons",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "Notes",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-area"
+						},
+						"label": "Notes",
+						"type": "field"
+					}
+				],
+				"title": "Surveillance areas"
+			},
+			"id": "17de49dd79b-layer-12",
+			"itemId": "70048386b7b04e478722446cbdb07f59",
+			"layerDefinition": {
+				"definitionExpression": "(Authoritative = 'Yes') OR (Authoritative IS NULL)",
+				"drawingInfo": {
+					"renderer": {
+						"type": "uniqueValue",
+						"uniqueValueGroups": [
+							{
+								"classes": [
+									{
+										"label": "Surveillance checked more than 6 month ago",
+										"symbol": {
+											"color": [
+												0,
+												0,
+												0,
+												0
+											],
+											"outline": {
+												"color": [
+													15,
+													0,
+													0,
+													255
+												],
+												"style": "esriSLSSolid",
+												"type": "esriSLS",
+												"width": 1.5
+											},
+											"style": "esriSFSSolid",
+											"type": "esriSFS"
+										},
+										"values": [
+											[
+												"Surveillance checked more than 6 month ago"
+											]
+										]
+									},
+									{
+										"label": "Surveillance checked less than 6 month ago",
+										"symbol": {
+											"color": [
+												0,
+												0,
+												0,
+												0
+											],
+											"outline": {
+												"color": [
+													253,
+													127,
+													111,
+													255
+												],
+												"style": "esriSLSSolid",
+												"type": "esriSLS",
+												"width": 1.5
+											},
+											"style": "esriSFSSolid",
+											"type": "esriSFS"
+										},
+										"values": [
+											[
+												"Surveillance checked less than 6 month ago"
+											]
+										]
+									}
+								]
+							}
+						],
+						"uniqueValueInfos": [
+							{
+								"label": "Surveillance checked more than 6 month ago",
+								"symbol": {
+									"color": [
+										0,
+										0,
+										0,
+										0
+									],
+									"outline": {
+										"color": [
+											15,
+											0,
+											0,
+											255
+										],
+										"style": "esriSLSSolid",
+										"type": "esriSLS",
+										"width": 1.5
+									},
+									"style": "esriSFSSolid",
+									"type": "esriSFS"
+								},
+								"value": "Surveillance checked more than 6 month ago"
+							},
+							{
+								"label": "Surveillance checked less than 6 month ago",
+								"symbol": {
+									"color": [
+										0,
+										0,
+										0,
+										0
+									],
+									"outline": {
+										"color": [
+											253,
+											127,
+											111,
+											255
+										],
+										"style": "esriSLSSolid",
+										"type": "esriSLS",
+										"width": 1.5
+									},
+									"style": "esriSFSSolid",
+									"type": "esriSFS"
+								},
+								"value": "Surveillance checked less than 6 month ago"
+							}
+						],
+						"valueExpression": "// Write a script that returns a value that will be used to draw features.\r\n// For example, find the percentage of oak trees:\r\n// Round(($feature.oak_count / $feature.all_trees_count) * 100, 2)\r\n\r\nvar thistime = Now();\r\nvar backdate = DateAdd(thistime, -6, 'months');\r\nvar symbol = \"Surveillance checked \" + iif($feature.Date_checked > backdate, \"less than 6 month ago\", \"more than 6 month ago\")\r\n\r\nreturn symbol;\r\n",
+						"valueExpressionTitle": "Surveillance Area Checked",
+						"visualVariables": [
+							{
+								"stops": [
+									{
+										"size": 3.081769620599918,
+										"value": 5060
+									},
+									{
+										"size": 1.540884810299959,
+										"value": 15813
+									},
+									{
+										"size": 0.7704424051499795,
+										"value": 63251
+									},
+									{
+										"size": 0,
+										"value": 126502
+									}
+								],
+								"target": "outline",
+								"type": "sizeInfo",
+								"valueExpression": "$view.scale"
+							}
+						]
+					}
+				},
+				"featureReduction": null
+			},
+			"layerType": "ArcGISFeatureLayer",
+			"popupInfo": {
+				"description": "<p>To create related records for this surveillance area tap on <strong>Surveillance area inspection records </strong>under RELATED</p>",
+				"expressionInfos": [
+				],
+				"fieldInfos": [
+					{
+						"fieldName": "OBJECTID",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "OBJECTID",
+						"visible": true
+					},
+					{
+						"fieldName": "Area_Name",
+						"isEditable": true,
+						"label": "Area Name",
+						"visible": true
+					},
+					{
+						"fieldName": "Area_checked",
+						"isEditable": true,
+						"label": "Is area checked? ",
+						"visible": true
+					},
+					{
+						"fieldName": "Date_checked",
+						"isEditable": true,
+						"label": "Date area was checked",
+						"visible": true
+					},
+					{
+						"fieldName": "Notes",
+						"isEditable": true,
+						"label": "Notes",
+						"visible": true
+					},
+					{
+						"fieldName": "water_type",
+						"isEditable": true,
+						"label": "Water Type",
+						"visible": true
+					},
+					{
+						"fieldName": "WharfPilesChecked",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "Number of piles checked?",
+						"visible": true
+					},
+					{
+						"fieldName": "GlobalID",
+						"isEditable": true,
+						"label": "GlobalID",
+						"visible": true
+					},
+					{
+						"fieldName": "CreationDate",
+						"isEditable": true,
+						"label": "CreationDate",
+						"visible": true
+					},
+					{
+						"fieldName": "Creator",
+						"isEditable": true,
+						"label": "Creator",
+						"visible": true
+					},
+					{
+						"fieldName": "EditDate",
+						"isEditable": true,
+						"label": "EditDate",
+						"visible": true
+					},
+					{
+						"fieldName": "Editor",
+						"isEditable": true,
+						"label": "Editor",
+						"visible": true
+					},
+					{
+						"fieldName": "Shape__Area",
+						"format": {
+							"digitSeparator": false,
+							"places": 6
+						},
+						"isEditable": true,
+						"label": "Shape__Area",
+						"visible": true
+					},
+					{
+						"fieldName": "Shape__Length",
+						"format": {
+							"digitSeparator": false,
+							"places": 6
+						},
+						"isEditable": true,
+						"label": "Shape__Length",
+						"visible": true
+					},
+					{
+						"fieldName": "Region",
+						"isEditable": true,
+						"label": "Region",
+						"visible": false
+					}
+				],
+				"popupElements": [
+					{
+						"text": "<p>To create related records for this surveillance area tap on <strong>Surveillance area inspection records </strong>under RELATED</p>",
+						"type": "text"
+					}
+				],
+				"title": "Surveillance area"
+			},
+			"showLabels": true,
+			"title": "Repeatable Surveillance Areas",
+			"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Surveillance_records_and_inspections/FeatureServer/8",
+			"visibility": true
+		},
+		{
+			"featureEffect": null,
+			"formInfo": {
+				"expressionInfos": [
+					{
+						"expression": "false",
+						"name": "expr/system/false",
+						"returnType": "boolean",
+						"title": "False"
+					},
+					{
+						"expression": "true",
+						"name": "expr/system/true",
+						"returnType": "boolean",
+						"title": "True"
+					},
+					{
+						"expression": "true",
+						"name": "expr0",
+						"returnType": "boolean",
+						"title": "Is Required"
+					},
+					{
+						"expression": "DomainName($feature, \"PlaceType\") == \"SwingMooring\" || DomainName($feature, \"PlaceType\") == \"PoleMooring\"",
+						"name": "expr1",
+						"returnType": "boolean",
+						"title": "Type is mooring"
+					},
+					{
+						"expression": "if (IsEmpty(Geometry($feature))){\r\n	return;\r\n}\r\nelse{\r\n	var Reg = Intersects($feature, FeatureSetByName($map,\"RegionalCounciBoundaries\")); //Project Areas Extent is the name of the source Intersecting polygon layer in the webmap\r\n	 if (Count(Reg) == 1){ \r\n	   return Text(First(Reg).Region);  //Gets the value from the field GroupName from the source intersecting polygon in the webmap\r\n	 }\r\n}",
+						"name": "expr/pull-region",
+						"returnType": "string",
+						"title": "Pull Region"
+					},
+					{
+						"expression": "if (IsEmpty(Geometry($feature))){\r\n	return;\r\n}\r\nelse{\r\n	var Reg = Intersects($feature, FeatureSetByName($map,\"Harbours\")); //Project Areas Extent is the name of the source Intersecting polygon layer in the webmap\r\n	 if (Count(Reg) == 1){ \r\n	   return Text(First(Reg).Harbour);  //Gets the value from the field GroupName from the source intersecting polygon in the webmap\r\n   }\r\n	 else{ return \"Outside Harbour\"\r\n	 }\r\n\r\n}\r\n\r\n\r\n",
+						"name": "expr/harbour",
+						"returnType": "string",
+						"title": "Harbour"
+					},
+					{
+						"expression": "if (IsEmpty(Geometry($feature))){\r\n	return;\r\n}\r\nelse{\r\n	var Reg = Intersects($feature, FeatureSetByName($map,\"Marine Areas (Convex Hull)\")); //Project Areas Extent is the name of the source Intersecting polygon layer in the webmap\r\n	 if (Count(Reg) == 1){ \r\n	   return Text(First(Reg).AreaName);  //Gets the value from the field GroupName from the source intersecting polygon in the webmap\r\n	 }\r\n	 else{ return \"Outside Area\"\r\n	 }\r\n\r\n}",
+						"name": "expr/pull-areas",
+						"returnType": "string",
+						"title": "pull areas"
+					},
+					{
+						"expression": "DomainName($feature, \"PlaceType\") == \"SwingMooring\" || DomainName($feature, \"PlaceType\") == \"PoleMooring\"",
+						"name": "expr2",
+						"returnType": "boolean",
+						"title": "New Expression"
+					}
+				],
+				"formElements": [
+					{
+						"editable": true,
+						"fieldName": "PlaceType",
+						"inputType": {
+							"showNoValueOption": false,
+							"type": "combo-box"
+						},
+						"label": "Place Type",
+						"requiredExpression": "expr0",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "PlaceID",
+						"inputType": {
+							"maxLength": 255,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Place ID",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "MooringTagNumber",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Mooring tag number",
+						"type": "field",
+						"visibilityExpression": "expr1"
+					},
+					{
+						"editable": true,
+						"fieldName": "Status",
+						"inputType": {
+							"noValueOptionLabel": "No value",
+							"showNoValueOption": true,
+							"type": "combo-box"
+						},
+						"label": "Status",
+						"type": "field",
+						"visibilityExpression": "expr1"
+					},
+					{
+						"editable": true,
+						"fieldName": "Comments",
+						"inputType": {
+							"maxLength": 3000,
+							"minLength": 0,
+							"type": "text-area"
+						},
+						"label": "Comments",
+						"type": "field"
+					},
+					{
+						"formElements": [
+							{
+								"editable": false,
+								"fieldName": "Region",
+								"inputType": {
+									"maxLength": 256,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Region",
+								"type": "field",
+								"valueExpression": "expr/pull-region"
+							},
+							{
+								"editable": false,
+								"fieldName": "Harbour",
+								"inputType": {
+									"maxLength": 255,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Harbour",
+								"type": "field",
+								"valueExpression": "expr/harbour"
+							},
+							{
+								"editable": false,
+								"fieldName": "AreaName",
+								"inputType": {
+									"maxLength": 255,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "AreaName",
+								"type": "field",
+								"valueExpression": "expr/pull-areas"
+							},
+							{
+								"editable": false,
+								"fieldName": "Source",
+								"inputType": {
+									"noValueOptionLabel": "No value",
+									"showNoValueOption": true,
+									"type": "combo-box"
+								},
+								"label": "Source",
+								"type": "field",
+								"visibilityExpression": "expr2"
+							}
+						],
+						"initialState": "collapsed",
+						"label": "Location details",
+						"type": "group"
+					}
+				],
+				"preserveFieldValuesWhenHidden": true,
+				"title": "Marinas/Anchors/Moorings etc"
+			},
+			"id": "17de480085b-layer-8",
+			"itemId": "a6a3999c46784a048f99db8b8c23ac46",
+			"layerDefinition": {
+				"definitionExpression": "Status <> 'Retired'",
+				"drawingInfo": {
+					"labelingInfo": [
+						{
+							"labelExpressionInfo": {
+								"expression": "var lof = iif($feature[\"MostRecent_LevelOfFoul\"] != Null,\"(\" + $feature[\"MostRecent_LevelOfFoul\"] + \")\",\"\")\nvar pestanddate = \"(\" + $feature.PestFoundOnMostRecentRecord + \" - \" + text($feature.DateOfMostRecentCheck,'DD MMM') + \")\"\nvar pestfound = iif($feature.PestFoundOnMostRecentRecord == Null,'',pestanddate)\nvar boatnamelabel = iif(($feature.NameOfMostRecentBoat == Null || $feature.NameOfMostRecentBoat == \"NoName\") && $feature.DateOfMostRecentCheck != Null,\"Boat with no name\",$feature.NameOfMostRecentBoat + lof)\nvar boatpres = iif($feature.BoatPresentBooleanMostRecentChe == \"No\",\"No Boat Present\",boatnamelabel)\nvar label = $feature.PlaceID + TextFormatting.NewLine + boatpres + TextFormatting.NewLine + pestfound\nreturn label"
+							},
+							"labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+							"maxScale": 0,
+							"minScale": 3725.583713,
+							"repeatLabel": true,
+							"symbol": {
+								"angle": 0,
+								"color": [
+									255,
+									209,
+									89,
+									255
+								],
+								"font": {
+									"family": "Arial",
+									"size": 12
+								},
+								"haloColor": [
+									43,
+									43,
+									43,
+									255
+								],
+								"haloSize": 1,
+								"horizontalAlignment": "center",
+								"kerning": true,
+								"rotated": false,
+								"text": "",
+								"type": "esriTS",
+								"verticalAlignment": "baseline",
+								"xoffset": 0,
+								"yoffset": 0
+							}
+						}
+					],
+					"renderer": {
+						"type": "uniqueValue",
+						"uniqueValueGroups": [
+							{
+								"classes": [
+									{
+										"label": "Recent check, boat present. Not a problem boat",
+										"symbol": {
+											"color": [
+												178,
+												224,
+												97,
+												110
+											],
+											"outline": {
+												"color": [
+													178,
+													224,
+													97,
+													255
+												],
+												"style": "esriSLSSolid",
+												"type": "esriSLS",
+												"width": 0.75
+											},
+											"style": "esriSFSSolid",
+											"type": "esriSFS"
+										},
+										"values": [
+											[
+												"RecentCheck_BoatPresent_NotProblemBoat"
+											]
+										]
+									},
+									{
+										"label": "Recent check, no boat present.",
+										"symbol": {
+											"color": [
+												119,
+												208,
+												252,
+												128
+											],
+											"outline": {
+												"color": [
+													119,
+													208,
+													252,
+													255
+												],
+												"style": "esriSLSSolid",
+												"type": "esriSLS",
+												"width": 0.75
+											},
+											"style": "esriSFSSolid",
+											"type": "esriSFS"
+										},
+										"values": [
+											[
+												"RecentCheck_NoBoatPresent_NotProblemBoat"
+											]
+										]
+									},
+									{
+										"label": "Recent check, boat present. Problem boat",
+										"symbol": {
+											"color": [
+												158,
+												85,
+												156,
+												117
+											],
+											"outline": {
+												"color": [
+													158,
+													85,
+													156,
+													255
+												],
+												"style": "esriSLSSolid",
+												"type": "esriSLS",
+												"width": 0.75
+											},
+											"style": "esriSFSSolid",
+											"type": "esriSFS"
+										},
+										"values": [
+											[
+												"RecentCheck_BoatPresent_ProblemBoat"
+											]
+										]
+									},
+									{
+										"label": "Checked between 2 weeks and 3 months ago, boat present. Not a problem boat",
+										"symbol": {
+											"color": [
+												255,
+												222,
+												62,
+												153
+											],
+											"outline": {
+												"color": [
+													255,
+													222,
+													62,
+													255
+												],
+												"style": "esriSLSSolid",
+												"type": "esriSLS",
+												"width": 0.75
+											},
+											"style": "esriSFSSolid",
+											"type": "esriSFS"
+										},
+										"values": [
+											[
+												"Oldercheck_BoatPresent_NotProblemBoat"
+											]
+										]
+									},
+									{
+										"label": "Checked between 2 weeks and 3 months ago, boat present. Problem Boat",
+										"symbol": {
+											"color": [
+												158,
+												85,
+												156,
+												107
+											],
+											"outline": {
+												"color": [
+													158,
+													85,
+													156,
+													255
+												],
+												"style": "esriSLSSolid",
+												"type": "esriSLS",
+												"width": 0.75
+											},
+											"style": "esriSFSSolid",
+											"type": "esriSFS"
+										},
+										"values": [
+											[
+												"Oldercheck_BoatPresent_ProblemBoat"
+											]
+										]
+									},
+									{
+										"label": "Checked between 2 weeks and 3 months ago, No Boat Present.",
+										"symbol": {
+											"color": [
+												119,
+												208,
+												252,
+												125
+											],
+											"outline": {
+												"color": [
+													119,
+													208,
+													252,
+													255
+												],
+												"style": "esriSLSSolid",
+												"type": "esriSLS",
+												"width": 0.75
+											},
+											"style": "esriSFSSolid",
+											"type": "esriSFS"
+										},
+										"values": [
+											[
+												"Oldercheck_NoBoatPresent_NotProblemBoat"
+											]
+										]
+									},
+									{
+										"label": "Not checked in past 90 days (no boat present/not a problem)",
+										"symbol": {
+											"color": null,
+											"outline": {
+												"color": [
+													250,
+													168,
+													63,
+													255
+												],
+												"style": "esriSLSSolid",
+												"type": "esriSLS",
+												"width": 0.75
+											},
+											"style": "esriSFSSolid",
+											"type": "esriSFS"
+										},
+										"values": [
+											[
+												"Nocheck_NoBoatPresent_NotProblemBoat"
+											]
+										]
+									},
+									{
+										"label": "Not checked in past 90 days (boat present/not a problem)",
+										"symbol": {
+											"color": null,
+											"outline": {
+												"color": [
+													250,
+													168,
+													63,
+													255
+												],
+												"style": "esriSLSSolid",
+												"type": "esriSLS",
+												"width": 0.75
+											},
+											"style": "esriSFSSolid",
+											"type": "esriSFS"
+										},
+										"values": [
+											[
+												"Nocheck_BoatPresent_NotProblemBoat"
+											]
+										]
+									},
+									{
+										"label": "Not checked in past 90 days (boat present, problem boat)",
+										"symbol": {
+											"color": null,
+											"outline": {
+												"color": [
+													250,
+													168,
+													63,
+													255
+												],
+												"style": "esriSLSSolid",
+												"type": "esriSLS",
+												"width": 0.75
+											},
+											"style": "esriSFSSolid",
+											"type": "esriSFS"
+										},
+										"values": [
+											[
+												"Nocheck_BoatPresent_ProblemBoat"
+											]
+										]
+									}
+								]
+							}
+						],
+						"uniqueValueInfos": [
+							{
+								"label": "Recent check, boat present. Not a problem boat",
+								"symbol": {
+									"color": [
+										178,
+										224,
+										97,
+										110
+									],
+									"outline": {
+										"color": [
+											178,
+											224,
+											97,
+											255
+										],
+										"style": "esriSLSSolid",
+										"type": "esriSLS",
+										"width": 0.75
+									},
+									"style": "esriSFSSolid",
+									"type": "esriSFS"
+								},
+								"value": "RecentCheck_BoatPresent_NotProblemBoat"
+							},
+							{
+								"label": "Recent check, no boat present.",
+								"symbol": {
+									"color": [
+										119,
+										208,
+										252,
+										128
+									],
+									"outline": {
+										"color": [
+											119,
+											208,
+											252,
+											255
+										],
+										"style": "esriSLSSolid",
+										"type": "esriSLS",
+										"width": 0.75
+									},
+									"style": "esriSFSSolid",
+									"type": "esriSFS"
+								},
+								"value": "RecentCheck_NoBoatPresent_NotProblemBoat"
+							},
+							{
+								"label": "Recent check, boat present. Problem boat",
+								"symbol": {
+									"color": [
+										158,
+										85,
+										156,
+										117
+									],
+									"outline": {
+										"color": [
+											158,
+											85,
+											156,
+											255
+										],
+										"style": "esriSLSSolid",
+										"type": "esriSLS",
+										"width": 0.75
+									},
+									"style": "esriSFSSolid",
+									"type": "esriSFS"
+								},
+								"value": "RecentCheck_BoatPresent_ProblemBoat"
+							},
+							{
+								"label": "Checked between 2 weeks and 3 months ago, boat present. Not a problem boat",
+								"symbol": {
+									"color": [
+										255,
+										222,
+										62,
+										153
+									],
+									"outline": {
+										"color": [
+											255,
+											222,
+											62,
+											255
+										],
+										"style": "esriSLSSolid",
+										"type": "esriSLS",
+										"width": 0.75
+									},
+									"style": "esriSFSSolid",
+									"type": "esriSFS"
+								},
+								"value": "Oldercheck_BoatPresent_NotProblemBoat"
+							},
+							{
+								"label": "Checked between 2 weeks and 3 months ago, boat present. Problem Boat",
+								"symbol": {
+									"color": [
+										158,
+										85,
+										156,
+										107
+									],
+									"outline": {
+										"color": [
+											158,
+											85,
+											156,
+											255
+										],
+										"style": "esriSLSSolid",
+										"type": "esriSLS",
+										"width": 0.75
+									},
+									"style": "esriSFSSolid",
+									"type": "esriSFS"
+								},
+								"value": "Oldercheck_BoatPresent_ProblemBoat"
+							},
+							{
+								"label": "Checked between 2 weeks and 3 months ago, No Boat Present.",
+								"symbol": {
+									"color": [
+										119,
+										208,
+										252,
+										125
+									],
+									"outline": {
+										"color": [
+											119,
+											208,
+											252,
+											255
+										],
+										"style": "esriSLSSolid",
+										"type": "esriSLS",
+										"width": 0.75
+									},
+									"style": "esriSFSSolid",
+									"type": "esriSFS"
+								},
+								"value": "Oldercheck_NoBoatPresent_NotProblemBoat"
+							},
+							{
+								"label": "Not checked in past 90 days (no boat present/not a problem)",
+								"symbol": {
+									"color": null,
+									"outline": {
+										"color": [
+											250,
+											168,
+											63,
+											255
+										],
+										"style": "esriSLSSolid",
+										"type": "esriSLS",
+										"width": 0.75
+									},
+									"style": "esriSFSSolid",
+									"type": "esriSFS"
+								},
+								"value": "Nocheck_NoBoatPresent_NotProblemBoat"
+							},
+							{
+								"label": "Not checked in past 90 days (boat present/not a problem)",
+								"symbol": {
+									"color": null,
+									"outline": {
+										"color": [
+											250,
+											168,
+											63,
+											255
+										],
+										"style": "esriSLSSolid",
+										"type": "esriSLS",
+										"width": 0.75
+									},
+									"style": "esriSFSSolid",
+									"type": "esriSFS"
+								},
+								"value": "Nocheck_BoatPresent_NotProblemBoat"
+							},
+							{
+								"label": "Not checked in past 90 days (boat present, problem boat)",
+								"symbol": {
+									"color": null,
+									"outline": {
+										"color": [
+											250,
+											168,
+											63,
+											255
+										],
+										"style": "esriSLSSolid",
+										"type": "esriSLS",
+										"width": 0.75
+									},
+									"style": "esriSFSSolid",
+									"type": "esriSFS"
+								},
+								"value": "Nocheck_BoatPresent_ProblemBoat"
+							}
+						],
+						"valueExpression": "var thistime = Now()\nvar backdate = DateAdd(thistime,-90,'days')\nvar middate = DateAdd(thistime,-14,'days')\nvar newcheck = iif($feature.DateOfMostRecentCheck > middate,\"RecentCheck\",iif ($feature.DateOfMostRecentCheck > backdate, \"Oldercheck\", \"Nocheck\"))\n\nvar pestfound = iif($feature.PestFoundOnMostRecentRecord == Null,\"NoPestFound\",\"YesPestFound\")\nvar boatpres = iif($feature.BoatPresentBooleanMostRecentChe == \"No\",\"NoBoatPresent\",\"BoatPresent\")\nvar LOF = iif($feature.PestFoundOnMostRecentRecord != Null || $feature.MostRecent_LevelOfFoul > 2, \"ProblemBoat\", \"NotProblemBoat\")  \nvar symbol = newcheck + \"_\" + boatpres +  \"_\" + LOF\n\n\nreturn symbol",
+						"valueExpressionTitle": "Symbolise by datecheck and pestfound",
+						"visualVariables": [
+						]
+					}
+				},
+				"featureReduction": null
+			},
+			"layerType": "ArcGISFeatureLayer",
+			"popupInfo": {
+				"description": "<p>{expression/expr0}&nbsp;</p><p>{expression/expr2}&nbsp;</p><p>{expression/expr1}&nbsp;</p><p><span style='color:#bf3a2b;'><strong>{expression/expr3}&nbsp;</strong></span></p><p><a target='_blank' href='https://survey123.arcgis.app/?itemID=b1d88a42ed15484da64e050fc285abb0&amp;field:GUID_Boat={GlobalID}&amp;field:PlaceID={PlaceID}&amp;field:PlaceType={PlaceType}&amp;field:MostRecentFromParent={IDofCurrentBoat}&amp;field:ConcatBoatDetails={MostRecentConcatBoatDetails}&amp;field:PreviousBoatName={NameOfMostRecentBoat}&amp;field:HazardousPlaceComments={MostRecentHazardComment}&amp;field:HazardousPlaceBoolean={MostRecentHazardBoolean}&amp;field:PlaceRegion={Region}&amp;callback=https://fieldmaps.arcgis.app' rel='nofollow ugc noopener noreferrer'>TAP HERE TO LAUNCH FORM</a><a target='_blank' rel='noopener noreferrer'> for</a><i> <strong>NEW</strong> RECORDS for this {PlaceType}&nbsp;</i></p><p><a target='_blank' href='https://ton-mvp-hub.maps.arcgis.com/apps/dashboards/b48bd7debd434da29ea9960fdd742aa4#BoatID={IDofCurrentBoat}' rel='nofollow ugc noopener noreferrer'><i>&nbsp;Click here to see history of current boat&nbsp;</i></a></p><p><i><strong>Edit/view existing</strong></i> hull inspections via <strong>Boat record</strong> table below</p>",
+				"expressionInfos": [
+					{
+						"expression": "var oldplace = iif($feature.BoatPresentBooleanMostRecentChe != \"No\" ,$feature.NameOfMostRecentBoat + \" was present.\" + TextFormatting.NewLine + \"(\" + $feature.MostRecentConcatBoatDetails + \")\", \"No boat was present\" )\nvar label = iif($feature.DateOfMostRecentCheck == Null,\"New \" + DomainName($feature,\"PlaceType\"),oldplace)\nreturn label",
+						"name": "expr0",
+						"returnType": "string",
+						"title": "Name of boat present"
+					},
+					{
+						"expression": "var pest = iif($feature.PestFoundOnMostRecentRecord != Null,$feature.PestFoundOnMostRecentRecord + \" was found on the boat\",\"No target pests were found\")\nvar label = iif($feature.BoatPresentBooleanMostRecentChe == \"Yes\",pest + \" and Level of Foul was \" + $feature[\"MostRecent_LevelOfFoul\"],\"\")\nreturn label",
+						"name": "expr1",
+						"returnType": "string",
+						"title": "Pest present"
+					},
+					{
+						"expression": "var lasti = iif($feature.DateOfMostRecentCheck != Null,\" was last inspected on \" + text($feature.DateOfMostRecentCheck,'DD/MM/YYYY'),\" is yet to be inspected\")\nreturn \"This \" + $feature.PlaceType + lasti",
+						"name": "expr2",
+						"returnType": "string",
+						"title": "Last inspection"
+					},
+					{
+						"expression": "var haz = iif($feature.MostRecentHazardBoolean == \"Yes\",\" HAZARD! \",\"\")\r\nreturn haz + \"  \" + $feature.MostRecentHazardComment",
+						"name": "expr3",
+						"returnType": "string",
+						"title": "Hazards"
+					}
+				],
+				"fieldInfos": [
+					{
+						"fieldName": "OBJECTID",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "OBJECTID",
+						"visible": true
+					},
+					{
+						"fieldName": "PlaceType",
+						"isEditable": true,
+						"label": "PlaceType",
+						"visible": true
+					},
+					{
+						"fieldName": "PlaceID",
+						"isEditable": true,
+						"label": "PlaceID",
+						"visible": true
+					},
+					{
+						"fieldName": "Comments",
+						"isEditable": true,
+						"label": "Comments",
+						"visible": true
+					},
+					{
+						"fieldName": "IDofCurrentBoat",
+						"isEditable": true,
+						"label": "IDofCurrentBoat",
+						"visible": true
+					},
+					{
+						"fieldName": "GlobalID",
+						"isEditable": true,
+						"label": "GlobalID",
+						"visible": true
+					},
+					{
+						"fieldName": "CopyCurrentBoat",
+						"isEditable": true,
+						"label": "Copy current boat at this berth",
+						"visible": true
+					},
+					{
+						"fieldName": "AreaName",
+						"isEditable": true,
+						"label": "AreaName",
+						"visible": true
+					},
+					{
+						"fieldName": "MarinaPier",
+						"isEditable": true,
+						"label": "MarinaPier",
+						"visible": true
+					},
+					{
+						"fieldName": "BerthNumber",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "BerthNumber",
+						"visible": true
+					},
+					{
+						"fieldName": "NameOfMostRecentBoat",
+						"isEditable": true,
+						"label": "NameOfMostRecentBoat",
+						"visible": true
+					},
+					{
+						"fieldName": "DateOfMostRecentCheck",
+						"isEditable": true,
+						"label": "Date of Most Recent Check",
+						"visible": true
+					},
+					{
+						"fieldName": "PestFoundOnMostRecentRecord",
+						"isEditable": true,
+						"label": "Pest Found On Most Recent Record",
+						"visible": true
+					},
+					{
+						"fieldName": "MooringTagNumber",
+						"isEditable": true,
+						"label": "Mooring tag number",
+						"visible": true
+					},
+					{
+						"fieldName": "CreationDate",
+						"isEditable": true,
+						"label": "CreationDate",
+						"visible": true
+					},
+					{
+						"fieldName": "Creator",
+						"isEditable": true,
+						"label": "Creator",
+						"visible": true
+					},
+					{
+						"fieldName": "EditDate",
+						"isEditable": true,
+						"label": "EditDate",
+						"visible": true
+					},
+					{
+						"fieldName": "Editor",
+						"isEditable": true,
+						"label": "Editor",
+						"visible": true
+					},
+					{
+						"fieldName": "Source",
+						"isEditable": true,
+						"label": "Source",
+						"visible": true
+					},
+					{
+						"fieldName": "DistanceBuffered",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "DistanceBuffered",
+						"visible": true
+					},
+					{
+						"fieldName": "MooringHolder",
+						"isEditable": true,
+						"label": "Mooring Holder",
+						"visible": true
+					},
+					{
+						"fieldName": "MH_ContactInfo",
+						"isEditable": true,
+						"label": "MH Contact",
+						"visible": true
+					},
+					{
+						"fieldName": "SwingRadius",
+						"format": {
+							"digitSeparator": false,
+							"places": 6
+						},
+						"isEditable": true,
+						"label": "Swing Radius (m)",
+						"visible": true
+					},
+					{
+						"fieldName": "BoatPresentBooleanMostRecentChe",
+						"isEditable": true,
+						"label": "Was there a boat present on the most recent check?",
+						"visible": true
+					},
+					{
+						"fieldName": "Shape__Area",
+						"format": {
+							"digitSeparator": false,
+							"places": 6
+						},
+						"isEditable": true,
+						"label": "Shape__Area",
+						"visible": true
+					},
+					{
+						"fieldName": "Shape__Length",
+						"format": {
+							"digitSeparator": false,
+							"places": 6
+						},
+						"isEditable": true,
+						"label": "Shape__Length",
+						"visible": true
+					},
+					{
+						"fieldName": "TestField",
+						"isEditable": true,
+						"label": "TestField",
+						"tooltip": "",
+						"visible": false
+					},
+					{
+						"fieldName": "GLOBALIDTEXT",
+						"isEditable": true,
+						"label": "",
+						"visible": false
+					},
+					{
+						"fieldName": "MostRecentConcatBoatDetails",
+						"isEditable": true,
+						"label": "Most recent concatenated boat details",
+						"visible": false
+					},
+					{
+						"fieldName": "MostRecent_LevelOfFoul",
+						"isEditable": true,
+						"label": "",
+						"visible": false
+					},
+					{
+						"fieldName": "MostRecentHazardComment",
+						"isEditable": true,
+						"label": "",
+						"visible": false
+					},
+					{
+						"fieldName": "MostRecentHazardBoolean",
+						"isEditable": true,
+						"label": "",
+						"visible": false
+					},
+					{
+						"fieldName": "Region",
+						"isEditable": true,
+						"label": "Region",
+						"visible": false
+					},
+					{
+						"fieldName": "Harbour",
+						"isEditable": true,
+						"label": "Harbour",
+						"visible": false
+					},
+					{
+						"fieldName": "Status",
+						"isEditable": true,
+						"label": "Status",
+						"visible": false
+					},
+					{
+						"fieldName": "private",
+						"isEditable": true,
+						"label": "Is it privately owned",
+						"visible": false
+					},
+					{
+						"fieldName": "expression/expr0",
+						"isEditable": true,
+						"visible": false
+					},
+					{
+						"fieldName": "expression/expr1",
+						"isEditable": true,
+						"visible": false
+					},
+					{
+						"fieldName": "expression/expr2",
+						"isEditable": true,
+						"visible": false
+					},
+					{
+						"fieldName": "expression/expr3",
+						"isEditable": true,
+						"visible": false
+					}
+				],
+				"popupElements": [
+					{
+						"text": "<p>{expression/expr0}&nbsp;</p><p>{expression/expr2}&nbsp;</p><p>{expression/expr1}&nbsp;</p><p><span style='color:#bf3a2b;'><strong>{expression/expr3}&nbsp;</strong></span></p><p><a target='_blank' href='https://survey123.arcgis.app/?itemID=b1d88a42ed15484da64e050fc285abb0&amp;field:GUID_Boat={GlobalID}&amp;field:PlaceID={PlaceID}&amp;field:PlaceType={PlaceType}&amp;field:MostRecentFromParent={IDofCurrentBoat}&amp;field:ConcatBoatDetails={MostRecentConcatBoatDetails}&amp;field:PreviousBoatName={NameOfMostRecentBoat}&amp;field:HazardousPlaceComments={MostRecentHazardComment}&amp;field:HazardousPlaceBoolean={MostRecentHazardBoolean}&amp;field:PlaceRegion={Region}&amp;callback=https://fieldmaps.arcgis.app' rel='nofollow ugc noopener noreferrer'>TAP HERE TO LAUNCH FORM</a><a target='_blank' rel='noopener noreferrer'> for</a><i> <strong>NEW</strong> RECORDS for this {PlaceType}&nbsp;</i></p><p><a target='_blank' href='https://ton-mvp-hub.maps.arcgis.com/apps/dashboards/b48bd7debd434da29ea9960fdd742aa4#BoatID={IDofCurrentBoat}' rel='nofollow ugc noopener noreferrer'><i>&nbsp;Click here to see history of current boat&nbsp;</i></a></p><p><i><strong>Edit/view existing</strong></i> hull inspections via <strong>Boat record</strong> table below</p>",
+						"type": "text"
+					},
+					{
+						"description": "",
+						"displayCount": 1,
+						"displayType": "list",
+						"orderByFields": [
+							{
+								"field": "DateChecked",
+								"order": "desc"
+							}
+						],
+						"relationshipId": 0,
+						"title": "",
+						"type": "relationship"
+					}
+				],
+				"relatedRecordsInfo": {
+					"orderByFields": [
+						{
+							"field": "relationships/0/DateChecked",
+							"order": "desc"
+						}
+					],
+					"showRelatedRecords": true
+				},
+				"showLastEditInfo": false,
+				"title": "{PlaceType} {PlaceID} {NameOfMostRecentBoat} "
+			},
+			"refreshInterval": 2,
+			"showLabels": true,
+			"title": "Berths, moorings and anchors",
+			"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Marine_layer/FeatureServer/0"
+		},
+		{
+			"formInfo": {
+				"expressionInfos": [
+					{
+						"expression": "DomainName($feature, \"PestSpecies\") == \"Other\"",
+						"name": "expr0",
+						"returnType": "boolean",
+						"title": "New Expression"
+					},
+					{
+						"expression": "text($feature.dateofinspection,'YYYY')",
+						"name": "expr/populate-year",
+						"returnType": "number",
+						"title": "Populate Year"
+					}
+				],
+				"formElements": [
+					{
+						"editable": true,
+						"fieldName": "dateofinspection",
+						"inputType": {
+							"includeTime": true,
+							"type": "datetime-picker"
+						},
+						"label": "Date ",
+						"type": "field"
+					},
+					{
+						"editable": false,
+						"fieldName": "Year_text",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Year (text)",
+						"type": "field",
+						"valueExpression": "expr/populate-year"
+					},
+					{
+						"description": "This field is an update to the 'Pest Type' field domains and naming conventions.",
+						"editable": true,
+						"fieldName": "PestSpecies",
+						"inputType": {
+							"noValueOptionLabel": "No value",
+							"showNoValueOption": true,
+							"type": "combo-box"
+						},
+						"label": "Pest Species",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "PestSpeciesOther",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "PestSpeciesOther",
+						"type": "field",
+						"visibilityExpression": "expr0"
+					},
+					{
+						"editable": true,
+						"fieldName": "Habitat",
+						"inputType": {
+							"noValueOptionLabel": "No value",
+							"showNoValueOption": true,
+							"type": "combo-box"
+						},
+						"label": "Habitat",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "Size_mm",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Size (mm)",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "Depth_m",
+						"inputType": {
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "\tDepth(m)",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "ControlMethod",
+						"inputType": {
+							"noValueOptionLabel": "No value",
+							"showNoValueOption": true,
+							"type": "combo-box"
+						},
+						"label": "Control Method",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "SpeciesCount",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Count",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "notes",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-area"
+						},
+						"label": "Notes",
+						"type": "field"
+					}
+				],
+				"title": "Pest Species Point"
+			},
+			"id": "1834fd9d5a1-layer-16",
+			"itemId": "a5c0d293f52d4000b6638e8f12489c8f",
+			"layerType": "ArcGISFeatureLayer",
+			"popupInfo": {
+				"expressionInfos": [
+				],
+				"fieldInfos": [
+					{
+						"fieldName": "OBJECTID",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "OBJECTID",
+						"visible": false
+					},
+					{
+						"fieldName": "GlobalID",
+						"isEditable": true,
+						"label": "GlobalID",
+						"visible": false
+					},
+					{
+						"fieldName": "Comments",
+						"isEditable": true,
+						"label": "Comments",
+						"visible": false
+					},
+					{
+						"fieldName": "Shape__Area",
+						"isEditable": true,
+						"label": "Shape__Area",
+						"visible": false
+					},
+					{
+						"fieldName": "Shape__Length",
+						"isEditable": true,
+						"label": "Shape__Length",
+						"visible": false
+					},
+					{
+						"fieldName": "pest_type",
+						"isEditable": true,
+						"label": "Pest Type",
+						"tooltip": "",
+						"visible": true
+					},
+					{
+						"fieldName": "notes",
+						"isEditable": true,
+						"label": "Notes",
+						"tooltip": "",
+						"visible": true
+					},
+					{
+						"fieldName": "dateofinspection",
+						"format": {
+							"dateFormat": "shortDateLongTime",
+							"digitSeparator": false
+						},
+						"isEditable": true,
+						"label": "Date of Inspection",
+						"tooltip": "",
+						"visible": true
+					},
+					{
+						"fieldName": "Size_mm",
+						"isEditable": true,
+						"label": "Size (mm)",
+						"tooltip": "",
+						"visible": true
+					},
+					{
+						"fieldName": "Location",
+						"isEditable": true,
+						"label": "Location",
+						"tooltip": "",
+						"visible": true
+					},
+					{
+						"fieldName": "PestLocation",
+						"isEditable": true,
+						"label": "Pest Location",
+						"tooltip": "",
+						"visible": true
+					},
+					{
+						"fieldName": "Habitat",
+						"isEditable": true,
+						"label": "Habitat",
+						"tooltip": "",
+						"visible": true
+					},
+					{
+						"fieldName": "Depth_m",
+						"format": {
+							"digitSeparator": true,
+							"places": 2
+						},
+						"isEditable": true,
+						"label": "\tDepth(m)",
+						"tooltip": "",
+						"visible": true
+					},
+					{
+						"fieldName": "pestTypeOtherText",
+						"isEditable": true,
+						"label": "pest type (specify Other)",
+						"tooltip": "",
+						"visible": true
+					},
+					{
+						"fieldName": "GlobalIDText",
+						"isEditable": true,
+						"label": "GlobalIDText",
+						"tooltip": "",
+						"visible": false
+					},
+					{
+						"fieldName": "ControlMethod",
+						"isEditable": true,
+						"label": "Control Method",
+						"tooltip": "",
+						"visible": true
+					},
+					{
+						"fieldName": "Harbour",
+						"isEditable": true,
+						"label": "Harbour",
+						"tooltip": "",
+						"visible": true
+					},
+					{
+						"fieldName": "AreaName",
+						"isEditable": true,
+						"label": "Area Name",
+						"tooltip": "",
+						"visible": false
+					},
+					{
+						"fieldName": "SpeciesCount",
+						"isEditable": true,
+						"label": "Count",
+						"tooltip": "",
+						"visible": true
+					},
+					{
+						"fieldName": "CreationDate",
+						"isEditable": true,
+						"label": "CreationDate",
+						"visible": true
+					},
+					{
+						"fieldName": "Creator",
+						"isEditable": true,
+						"label": "Creator",
+						"visible": true
+					},
+					{
+						"fieldName": "EditDate",
+						"isEditable": true,
+						"label": "EditDate",
+						"visible": false
+					},
+					{
+						"fieldName": "Editor",
+						"isEditable": true,
+						"label": "Editor",
+						"visible": false
+					},
+					{
+						"fieldName": "PestSpeciesOther",
+						"isEditable": true,
+						"label": "PestSpeciesOther",
+						"visible": false
+					},
+					{
+						"fieldName": "Year_",
+						"format": {
+							"digitSeparator": true,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "Year",
+						"visible": false
+					},
+					{
+						"fieldName": "Year_text",
+						"isEditable": true,
+						"label": "Year (text)",
+						"visible": false
+					},
+					{
+						"fieldName": "PestSpecies",
+						"isEditable": true,
+						"label": "Pest Species",
+						"visible": false
+					}
+				],
+				"popupElements": [
+					{
+						"description": "",
+						"fieldInfos": [
+							{
+								"fieldName": "dateofinspection",
+								"format": {
+									"dateFormat": "shortDateLongTime",
+									"digitSeparator": false
+								},
+								"isEditable": true,
+								"label": "Date of Inspection",
+								"tooltip": "",
+								"visible": true
+							},
+							{
+								"fieldName": "pest_type",
+								"isEditable": true,
+								"label": "Pest Type",
+								"tooltip": "",
+								"visible": true
+							},
+							{
+								"fieldName": "pestTypeOtherText",
+								"isEditable": true,
+								"label": "pest type (specify Other)",
+								"tooltip": "",
+								"visible": true
+							},
+							{
+								"fieldName": "notes",
+								"isEditable": true,
+								"label": "Notes",
+								"tooltip": "",
+								"visible": true
+							},
+							{
+								"fieldName": "Size_mm",
+								"isEditable": true,
+								"label": "Size (mm)",
+								"tooltip": "",
+								"visible": true
+							},
+							{
+								"fieldName": "Location",
+								"isEditable": true,
+								"label": "Location",
+								"tooltip": "",
+								"visible": true
+							},
+							{
+								"fieldName": "PestLocation",
+								"isEditable": true,
+								"label": "Pest Location",
+								"tooltip": "",
+								"visible": true
+							},
+							{
+								"fieldName": "Habitat",
+								"isEditable": true,
+								"label": "Habitat",
+								"tooltip": "",
+								"visible": true
+							},
+							{
+								"fieldName": "Depth_m",
+								"format": {
+									"digitSeparator": true,
+									"places": 2
+								},
+								"isEditable": true,
+								"label": "\tDepth(m)",
+								"tooltip": "",
+								"visible": true
+							},
+							{
+								"fieldName": "CreationDate",
+								"isEditable": true,
+								"label": "CreationDate",
+								"visible": true
+							},
+							{
+								"fieldName": "Creator",
+								"isEditable": true,
+								"label": "Creator",
+								"visible": true
+							},
+							{
+								"fieldName": "ControlMethod",
+								"isEditable": true,
+								"label": "Control Method",
+								"tooltip": "",
+								"visible": true
+							},
+							{
+								"fieldName": "Harbour",
+								"isEditable": true,
+								"label": "Harbour",
+								"tooltip": "",
+								"visible": true
+							},
+							{
+								"fieldName": "SpeciesCount",
+								"isEditable": true,
+								"label": "Count",
+								"tooltip": "",
+								"visible": true
+							}
+						],
+						"title": "",
+						"type": "fields"
+					}
+				],
+				"showLastEditInfo": false,
+				"title": "{PestSpecies} pest polygon"
+			},
+			"title": "Marine Pest Polygons",
+			"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Marine_Pest_Polygon/FeatureServer/0"
+		},
+		{
+			"formInfo": {
+				"expressionInfos": [
+					{
+						"expression": "false",
+						"name": "expr/system/false",
+						"returnType": "boolean",
+						"title": "False"
+					},
+					{
+						"expression": "true",
+						"name": "expr/system/true",
+						"returnType": "boolean",
+						"title": "True"
+					},
+					{
+						"expression": "true",
+						"name": "expr0",
+						"returnType": "boolean",
+						"title": "Is Required"
+					},
+					{
+						"expression": "DomainName($feature, \"PestSpecies\") == \"Other\"",
+						"name": "expr1",
+						"returnType": "boolean",
+						"title": "New Expression"
+					},
+					{
+						"expression": "text($feature.date,'YYYY')",
+						"name": "expr/populate-year-integer",
+						"returnType": "number",
+						"title": "Populate Year Integer"
+					},
+					{
+						"expression": "if (IsEmpty(Geometry($feature))){\r\n	return;\r\n}\r\nelse{\r\n	var Reg = Intersects($feature, FeatureSetByName($map,\"RegionalCounciBoundaries\")); //Project Areas Extent is the name of the source Intersecting polygon layer in the webmap\r\n	 if (Count(Reg) == 1){ \r\n	   return Text(First(Reg).Region);  //Gets the value from the field GroupName from the source intersecting polygon in the webmap\r\n	 }\r\n}",
+						"name": "expr/pull-region",
+						"returnType": "string",
+						"title": "Pull Region"
+					},
+					{
+						"expression": "if (IsEmpty(Geometry($feature))){\r\n	return;\r\n}\r\nelse{\r\n	var Reg = Intersects($feature, FeatureSetByName($map,\"Harbours\")); //Project Areas Extent is the name of the source Intersecting polygon layer in the webmap\r\n	 if (Count(Reg) == 1){ \r\n	   return Text(First(Reg).Harbour);  //Gets the value from the field GroupName from the source intersecting polygon in the webmap\r\n   }\r\n	 else{ return \"Outside Harbour\"\r\n	 }\r\n\r\n}\r\n",
+						"name": "expr/pull-harbour",
+						"returnType": "string",
+						"title": "Pull Harbour"
+					},
+					{
+						"expression": "if (IsEmpty(Geometry($feature))){\r\n	return;\r\n}\r\nelse{\r\n	var Reg = Intersects($feature, FeatureSetByName($map,\"Marine Areas (Convex Hull)\")); //Project Areas Extent is the name of the source Intersecting polygon layer in the webmap\r\n	 if (Count(Reg) == 1){ \r\n	   return Text(First(Reg).AreaName);  //Gets the value from the field GroupName from the source intersecting polygon in the webmap\r\n	 }\r\n	 else{ return \"Outside Area\"\r\n	 }\r\n\r\n}",
+						"name": "expr/pull-area",
+						"returnType": "string",
+						"title": "Pull Area"
+					},
+					{
+						"expression": "\r\nvar intersectLayer = Intersects(FeatureSetByName($map, \"Mussel Farm Line\"), Buffer($feature, 5, 'meters'));\r\n\r\nvar closestDistance = -1;\r\nvar closestLineName = \"\";\r\n\r\n// Loop through the intersecting features\r\nfor (var f in intersectLayer) {\r\n	var dist = Distance($feature, f);\r\n	\r\n	if (closestDistance == -1 || dist < closestDistance) {\r\n		closestDistance = dist;\r\n		closestLineName = f.LineName; //\r\n	}\r\n}\r\n\r\n// Return the closest LineNumber\r\nreturn closestLineName;\r\n",
+						"name": "expr/find-line-name",
+						"returnType": "string",
+						"title": "Find Line Name"
+					}
+				],
+				"formElements": [
+					{
+						"editable": true,
+						"fieldName": "date",
+						"inputType": {
+							"includeTime": true,
+							"type": "datetime-picker"
+						},
+						"label": "Date",
+						"requiredExpression": "expr0",
+						"type": "field"
+					},
+					{
+						"editable": false,
+						"fieldName": "Year_text",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Year (text)",
+						"type": "field",
+						"valueExpression": "expr/populate-year-integer"
+					},
+					{
+						"description": "This field is an update to the 'Pest Type' field domains and naming conventions, August 2022",
+						"editable": true,
+						"fieldName": "PestSpecies",
+						"inputType": {
+							"noValueOptionLabel": "No value",
+							"showNoValueOption": true,
+							"type": "combo-box"
+						},
+						"label": "Pest Species",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "pestTypeOtherText",
+						"inputType": {
+							"maxLength": 255,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "pest type (specify Other)",
+						"type": "field",
+						"visibilityExpression": "expr1"
+					},
+					{
+						"editable": true,
+						"fieldName": "Size_Integer",
+						"inputType": {
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Size (mm)",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "Depth_Integer",
+						"inputType": {
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Depth (m)",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "Habitat",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Habitat",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "ControlMethod",
+						"inputType": {
+							"noValueOptionLabel": "No value",
+							"showNoValueOption": true,
+							"type": "combo-box"
+						},
+						"label": "Control Method",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "SpeciesCount",
+						"inputType": {
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Count",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "Area_m2",
+						"inputType": {
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Area (m2)",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "notes",
+						"inputType": {
+							"maxLength": 222,
+							"minLength": 0,
+							"type": "text-area"
+						},
+						"label": "Notes",
+						"type": "field"
+					},
+					{
+						"formElements": [
+							{
+								"editable": false,
+								"fieldName": "Region",
+								"inputType": {
+									"maxLength": 256,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Region",
+								"type": "field",
+								"valueExpression": "expr/pull-region"
+							},
+							{
+								"editable": false,
+								"fieldName": "Harbour",
+								"inputType": {
+									"maxLength": 256,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Harbour",
+								"type": "field",
+								"valueExpression": "expr/pull-harbour"
+							},
+							{
+								"editable": false,
+								"fieldName": "AreaName",
+								"inputType": {
+									"maxLength": 256,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Area Name",
+								"type": "field",
+								"valueExpression": "expr/pull-area"
+							},
+							{
+								"description": "Line ID for the pests found on mussel farm lines",
+								"editableExpression": "expr/system/false",
+								"fieldName": "MusselLineNo",
+								"inputType": {
+									"maxLength": 256,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Mussel Line Number",
+								"type": "field",
+								"valueExpression": "expr/find-line-name"
+							}
+						],
+						"initialState": "collapsed",
+						"label": "Location details",
+						"type": "group"
+					}
+				],
+				"title": "Marine pests"
+			},
+			"id": "17de49283ee-layer-10",
+			"itemId": "ba0df8ee886144f6a6e541ee4d777ebd",
+			"layerDefinition": {
+				"drawingInfo": {
+					"labelingInfo": [
+						{
+							"labelExpression": "[pest_type]",
+							"labelExpressionInfo": {
+								"expression": "$feature[\"pest_type\"]\nDomainName($feature, \"pest_type\")"
+							},
+							"labelPlacement": "esriServerPointLabelPlacementCenterRight",
+							"maxScale": 0,
+							"minScale": 1435.239522,
+							"repeatLabel": true,
+							"symbol": {
+								"angle": 0,
+								"color": [
+									255,
+									255,
+									255,
+									255
+								],
+								"font": {
+									"family": "Arial",
+									"size": 9.75
+								},
+								"haloColor": [
+									43,
+									43,
+									43,
+									255
+								],
+								"haloSize": 1,
+								"horizontalAlignment": "center",
+								"kerning": true,
+								"rotated": false,
+								"text": "",
+								"type": "esriTS",
+								"verticalAlignment": "baseline",
+								"xoffset": 1,
+								"yoffset": 0
+							}
+						}
+					]
+				},
+				"featureReduction": null
+			},
+			"layerType": "ArcGISFeatureLayer",
+			"popupInfo": {
+				"expressionInfos": [
+				],
+				"fieldInfos": [
+					{
+						"fieldName": "OBJECTID",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "OBJECTID",
+						"visible": false
+					},
+					{
+						"fieldName": "pest_type",
+						"isEditable": true,
+						"label": "Pest Type",
+						"visible": true
+					},
+					{
+						"fieldName": "notes",
+						"isEditable": true,
+						"label": "Notes",
+						"visible": true
+					},
+					{
+						"fieldName": "date",
+						"isEditable": true,
+						"label": "Date",
+						"visible": true
+					},
+					{
+						"fieldName": "GlobalID",
+						"isEditable": true,
+						"label": "GlobalID",
+						"visible": false
+					},
+					{
+						"fieldName": "Size_mm",
+						"isEditable": true,
+						"label": "Size (mm)",
+						"visible": true
+					},
+					{
+						"fieldName": "Location",
+						"isEditable": true,
+						"label": "Location",
+						"visible": true
+					},
+					{
+						"fieldName": "PestLocation",
+						"isEditable": true,
+						"label": "Pest Location",
+						"visible": true
+					},
+					{
+						"fieldName": "Habitat",
+						"isEditable": true,
+						"label": "Habitat",
+						"visible": true
+					},
+					{
+						"fieldName": "Depth_m",
+						"format": {
+							"digitSeparator": false,
+							"places": 6
+						},
+						"isEditable": true,
+						"label": "Depth(m)",
+						"visible": true
+					},
+					{
+						"fieldName": "Lat",
+						"isEditable": true,
+						"label": "Lat",
+						"visible": false
+					},
+					{
+						"fieldName": "Long",
+						"isEditable": true,
+						"label": "Long",
+						"visible": false
+					},
+					{
+						"fieldName": "pestTypeOtherText",
+						"isEditable": true,
+						"label": "pest type (specify Other)",
+						"visible": true
+					},
+					{
+						"fieldName": "GlobalIDText",
+						"isEditable": true,
+						"label": "GlobalIDText",
+						"visible": false
+					},
+					{
+						"fieldName": "CreationDate",
+						"isEditable": true,
+						"label": "CreationDate",
+						"visible": true
+					},
+					{
+						"fieldName": "Creator",
+						"isEditable": true,
+						"label": "Creator",
+						"visible": true
+					},
+					{
+						"fieldName": "EditDate",
+						"isEditable": true,
+						"label": "EditDate",
+						"visible": false
+					},
+					{
+						"fieldName": "Editor",
+						"isEditable": true,
+						"label": "Editor",
+						"visible": false
+					},
+					{
+						"fieldName": "ControlMethod",
+						"isEditable": true,
+						"label": "Control Method",
+						"visible": true
+					},
+					{
+						"fieldName": "Harbour",
+						"isEditable": true,
+						"label": "Harbour",
+						"visible": true
+					},
+					{
+						"fieldName": "AreaName",
+						"isEditable": true,
+						"label": "Area Name",
+						"visible": true
+					},
+					{
+						"fieldName": "SpeciesCount",
+						"isEditable": true,
+						"label": "Count",
+						"visible": true
+					},
+					{
+						"fieldName": "Area_m2",
+						"isEditable": true,
+						"label": "Area (m2)",
+						"visible": true
+					},
+					{
+						"fieldName": "Year_text",
+						"isEditable": true,
+						"label": "Year (text)",
+						"visible": false
+					}
+				],
+				"popupElements": [
+					{
+						"description": "",
+						"fieldInfos": [
+							{
+								"fieldName": "date",
+								"isEditable": true,
+								"label": "Date",
+								"visible": true
+							},
+							{
+								"fieldName": "pest_type",
+								"isEditable": true,
+								"label": "Pest Type",
+								"visible": true
+							},
+							{
+								"fieldName": "pestTypeOtherText",
+								"isEditable": true,
+								"label": "pest type (specify Other)",
+								"visible": true
+							},
+							{
+								"fieldName": "notes",
+								"isEditable": true,
+								"label": "Notes",
+								"visible": true
+							},
+							{
+								"fieldName": "Size_mm",
+								"isEditable": true,
+								"label": "Size (mm)",
+								"visible": true
+							},
+							{
+								"fieldName": "Location",
+								"isEditable": true,
+								"label": "Location",
+								"visible": true
+							},
+							{
+								"fieldName": "PestLocation",
+								"isEditable": true,
+								"label": "Pest Location",
+								"visible": true
+							},
+							{
+								"fieldName": "Habitat",
+								"isEditable": true,
+								"label": "Habitat",
+								"visible": true
+							},
+							{
+								"fieldName": "Depth_m",
+								"format": {
+									"digitSeparator": false,
+									"places": 6
+								},
+								"isEditable": true,
+								"label": "Depth(m)",
+								"visible": true
+							},
+							{
+								"fieldName": "CreationDate",
+								"isEditable": true,
+								"label": "CreationDate",
+								"visible": true
+							},
+							{
+								"fieldName": "Creator",
+								"isEditable": true,
+								"label": "Creator",
+								"visible": true
+							},
+							{
+								"fieldName": "ControlMethod",
+								"isEditable": true,
+								"label": "Control Method",
+								"visible": true
+							},
+							{
+								"fieldName": "Harbour",
+								"isEditable": true,
+								"label": "Harbour",
+								"visible": true
+							},
+							{
+								"fieldName": "AreaName",
+								"isEditable": true,
+								"label": "Area Name",
+								"visible": true
+							},
+							{
+								"fieldName": "SpeciesCount",
+								"isEditable": true,
+								"label": "Count",
+								"visible": true
+							},
+							{
+								"fieldName": "Area_m2",
+								"isEditable": true,
+								"label": "Area (m2)",
+								"visible": true
+							}
+						],
+						"title": "",
+						"type": "fields"
+					},
+					{
+						"description": "",
+						"displayType": "preview",
+						"title": "",
+						"type": "attachments"
+					}
+				],
+				"showAttachments": true,
+				"showLastEditInfo": false,
+				"title": "{pest_type} {date}"
+			},
+			"showLabels": true,
+			"title": "Marine Pest Points",
+			"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Marine_pests/FeatureServer/6"
+		},
+		{
+			"formInfo": {
+				"expressionInfos": [
+					{
+						"expression": "DomainName($feature, \"SurveyMethod_domain\") == \"Diver search\" || DomainName($feature, \"SurveyMethod_domain\") == \"Benthic sled\"",
+						"name": "expr0",
+						"returnType": "boolean",
+						"title": "New Expression"
+					},
+					{
+						"expression": "DomainName($feature, \"SurveyType_domain\") == \"Other\"",
+						"name": "expr1",
+						"returnType": "boolean",
+						"title": "New Expression 2"
+					},
+					{
+						"expression": "DomainName($feature, \"SurveyMethod_domain\") == \"Other\"",
+						"name": "expr2",
+						"returnType": "boolean",
+						"title": "New Expression 3"
+					},
+					{
+						"expression": "\"FieldMaps Diver Polygon\"",
+						"name": "expr/diver-polygon-source",
+						"returnType": "string",
+						"title": "diver polygon source"
+					},
+					{
+						"expression": "text($feature.DateCaptured,'YYYY')",
+						"name": "expr/populate-year-text",
+						"returnType": "string",
+						"title": "Populate year text"
+					}
+				],
+				"formElements": [
+					{
+						"editable": true,
+						"fieldName": "DateCaptured",
+						"inputType": {
+							"includeTime": false,
+							"type": "datetime-picker"
+						},
+						"label": "DateCaptured",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "DiverName",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Diver name",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "SurveyType_domain",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Survey Type",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "Survey_Type",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Survey Type Other",
+						"type": "field",
+						"visibilityExpression": "expr1"
+					},
+					{
+						"editable": true,
+						"fieldName": "SurveyMethod_domain",
+						"inputType": {
+							"noValueOptionLabel": "No value",
+							"showNoValueOption": true,
+							"type": "combo-box"
+						},
+						"label": "Survey Method",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "SurveyMethod",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Survey Method",
+						"type": "field",
+						"visibilityExpression": "expr2"
+					},
+					{
+						"formElements": [
+							{
+								"editable": true,
+								"fieldName": "AirIn",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Air In",
+								"type": "field"
+							},
+							{
+								"editable": true,
+								"fieldName": "AirOut",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Air Out",
+								"type": "field"
+							}
+						],
+						"initialState": "expanded",
+						"label": "Dive Details",
+						"type": "group",
+						"visibilityExpression": "expr0"
+					},
+					{
+						"editable": true,
+						"fieldName": "TimeIn",
+						"inputType": {
+							"includeTime": true,
+							"type": "datetime-picker"
+						},
+						"label": "Time In",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "TimeOut",
+						"inputType": {
+							"includeTime": true,
+							"type": "datetime-picker"
+						},
+						"label": "Time Out",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "Depth",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Average Depth",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "Comments",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-area"
+						},
+						"label": "Notes",
+						"type": "field"
+					},
+					{
+						"editable": false,
+						"fieldName": "Source",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Source",
+						"type": "field",
+						"valueExpression": "expr/diver-polygon-source"
+					},
+					{
+						"editable": false,
+						"fieldName": "Year_text",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Year (text)",
+						"type": "field",
+						"valueExpression": "expr/populate-year-text"
+					}
+				],
+				"title": "Diver Surveillance polygons"
+			},
+			"id": "17eff150634-layer-8",
+			"itemId": "42416b2c5b774086afa38586202c7090",
+			"layerDefinition": {
+				"drawingInfo": {
+					"renderer": {
+						"symbol": {
+							"color": [
+								255,
+								64,
+								64,
+								64
+							],
+							"outline": {
+								"color": [
+									255,
+									64,
+									64,
+									255
+								],
+								"style": "esriSLSSolid",
+								"type": "esriSLS",
+								"width": 0.75
+							},
+							"style": "esriSFSSolid",
+							"type": "esriSFS"
+						},
+						"type": "simple"
+					}
+				},
+				"featureReduction": null
+			},
+			"layerType": "ArcGISFeatureLayer",
+			"popupInfo": {
+				"expressionInfos": [
+					{
+						"expression": "Round(Length($feature, 'meters'), 1)",
+						"name": "expr0",
+						"returnType": "number",
+						"title": "Perimeter (m)"
+					},
+					{
+						"expression": "Round(Area($feature, 'square-meters'), 1)",
+						"name": "expr1",
+						"returnType": "number",
+						"title": "Area (sq m)"
+					}
+				],
+				"fieldInfos": [
+					{
+						"fieldName": "OBJECTID",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "OBJECTID",
+						"visible": false
+					},
+					{
+						"fieldName": "DateCaptured",
+						"isEditable": true,
+						"label": "DateCaptured",
+						"visible": true
+					},
+					{
+						"fieldName": "Location",
+						"isEditable": true,
+						"label": "Location",
+						"visible": false
+					},
+					{
+						"fieldName": "GlobalID",
+						"isEditable": true,
+						"label": "GlobalID",
+						"visible": false
+					},
+					{
+						"fieldName": "Shape__Area",
+						"format": {
+							"digitSeparator": false,
+							"places": 6
+						},
+						"isEditable": true,
+						"label": "Shape__Area",
+						"visible": false
+					},
+					{
+						"fieldName": "Shape__Length",
+						"format": {
+							"digitSeparator": false,
+							"places": 6
+						},
+						"isEditable": true,
+						"label": "Shape__Length",
+						"visible": false
+					},
+					{
+						"fieldName": "expression/expr0",
+						"isEditable": true,
+						"visible": true
+					},
+					{
+						"fieldName": "expression/expr1",
+						"isEditable": true,
+						"visible": true
+					},
+					{
+						"fieldName": "Year_text",
+						"isEditable": true,
+						"label": "Year (text)",
+						"visible": false
+					}
+				],
+				"popupElements": [
+					{
+						"description": "",
+						"fieldInfos": [
+							{
+								"fieldName": "DateCaptured",
+								"isEditable": true,
+								"label": "DateCaptured",
+								"visible": true
+							},
+							{
+								"fieldName": "expression/expr1",
+								"isEditable": true,
+								"visible": true
+							},
+							{
+								"fieldName": "expression/expr0",
+								"isEditable": true,
+								"visible": true
+							}
+						],
+						"title": "",
+						"type": "fields"
+					}
+				],
+				"title": "Dive Surveillance area"
+			},
+			"title": "Surveillance polygons",
+			"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Marine_Diver_Surveillance/FeatureServer/1",
+			"visibility": false
+		},
+		{
+			"effect": null,
+			"featureEffect": null,
+			"formInfo": {
+				"expressionInfos": [
+					{
+						"expression": "false",
+						"name": "expr/system/false",
+						"returnType": "boolean",
+						"title": "False"
+					},
+					{
+						"expression": "true",
+						"name": "expr/system/true",
+						"returnType": "boolean",
+						"title": "True"
+					},
+					{
+						"expression": "if (IsEmpty(Geometry($feature))){\r\n	return;\r\n}\r\nelse{\r\n	var AREANAME = Intersects($feature, FeatureSetByName($map,\"Surveillance areas\")); //Placement Grid is the name of the source Intersecting polygon layer in the webmap\r\n	 if (Count(AREANAME) == 1){ \r\n	   return Text(First(GRID).Area_Name);  //Gets the value from the field PageName from the source intersecting polygon in the webmap\r\n	 }\r\n}",
+						"name": "expr/get-area-name-from-intersect0",
+						"returnType": "string",
+						"title": "Get Area Name from Intersect"
+					},
+					{
+						"expression": "DomainName($feature, \"SurveyMethod\") == \"Diver search\" || DomainName($feature, \"SurveyMethod\") == \"Benthic sled\"",
+						"name": "expr",
+						"returnType": "boolean",
+						"title": "New Expression"
+					},
+					{
+						"expression": "text($feature.DateCaptured,'YYYY')",
+						"name": "expr/populate-year-text-field",
+						"returnType": "string",
+						"title": "Populate Year Text Field"
+					},
+					{
+						"expression": "DomainName($feature, \"SurveyMethod\") == \"TUV\"",
+						"name": "expr1",
+						"returnType": "boolean",
+						"title": "TUV"
+					}
+				],
+				"formElements": [
+					{
+						"editable": true,
+						"fieldName": "DateCaptured",
+						"inputType": {
+							"includeTime": false,
+							"type": "datetime-picker"
+						},
+						"label": "DateCaptured",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "DiverName",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Diver name",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "Visibility",
+						"inputType": {
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Visibility (m)",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "SurveyType",
+						"inputType": {
+							"noValueOptionLabel": "No value",
+							"showNoValueOption": true,
+							"type": "combo-box"
+						},
+						"label": "Survey Type",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "SurveyMethod",
+						"inputType": {
+							"noValueOptionLabel": "No value",
+							"showNoValueOption": true,
+							"type": "combo-box"
+						},
+						"label": "Survey Method",
+						"type": "field"
+					},
+					{
+						"formElements": [
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "CableOffset",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "CableOffset",
+								"type": "field"
+							},
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "StartDepth",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "StartDepth",
+								"type": "field"
+							},
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "EndDepth",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "EndDepth",
+								"type": "field"
+							},
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "SurfaceTemp",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "SurfaceTemp",
+								"type": "field"
+							},
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "BottomTemp",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "BottomTemp",
+								"type": "field"
+							}
+						],
+						"initialState": "expanded",
+						"label": "TUV Inputs",
+						"type": "group",
+						"visibilityExpression": "expr1"
+					},
+					{
+						"formElements": [
+							{
+								"editable": true,
+								"fieldName": "AirIn",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Air In",
+								"type": "field"
+							},
+							{
+								"editable": true,
+								"fieldName": "AirOut",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Air Out",
+								"type": "field"
+							}
+						],
+						"initialState": "expanded",
+						"label": "Dive Details",
+						"type": "group",
+						"visibilityExpression": "expr"
+					},
+					{
+						"editable": true,
+						"fieldName": "TimeIn",
+						"inputType": {
+							"includeTime": true,
+							"type": "datetime-picker"
+						},
+						"label": "Time In",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "TimeOut",
+						"inputType": {
+							"includeTime": true,
+							"type": "datetime-picker"
+						},
+						"label": "Time Out",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "AverageDepth",
+						"inputType": {
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Average Depth",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "Notes",
+						"inputType": {
+							"maxLength": 3000,
+							"minLength": 0,
+							"type": "text-area"
+						},
+						"label": "Notes",
+						"type": "field"
+					},
+					{
+						"editable": false,
+						"fieldName": "Year_text",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Year (text)",
+						"type": "field",
+						"valueExpression": "expr/populate-year-text-field"
+					}
+				],
+				"title": "Diver Surveillance - Line"
+			},
+			"id": "17eff150635-layer-9",
+			"itemId": "42416b2c5b774086afa38586202c7090",
+			"layerDefinition": {
+				"definitionExpression": null,
+				"drawingInfo": {
+					"renderer": {
+						"symbol": {
+							"color": [
+								255,
+								255,
+								255,
+								255
+							],
+							"marker": {
+								"placement": "end",
+								"style": "arrow"
+							},
+							"style": "esriSLSDashDot",
+							"type": "esriSLS",
+							"width": 0.75
+						},
+						"type": "simple"
+					}
+				},
+				"featureReduction": null
+			},
+			"layerType": "ArcGISFeatureLayer",
+			"popupInfo": {
+				"expressionInfos": [
+					{
+						"expression": "Round(Length($feature, 'meters'), 1)",
+						"name": "expr0",
+						"returnType": "number",
+						"title": "Length (m)"
+					}
+				],
+				"fieldInfos": [
+					{
+						"fieldName": "OBJECTID",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "OBJECTID",
+						"visible": false
+					},
+					{
+						"fieldName": "DateCaptured",
+						"isEditable": true,
+						"label": "DateCaptured",
+						"visible": true
+					},
+					{
+						"fieldName": "Visibility",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "Visibility (m)",
+						"visible": true
+					},
+					{
+						"fieldName": "GlobalID",
+						"isEditable": true,
+						"label": "GlobalID",
+						"visible": false
+					},
+					{
+						"fieldName": "Shape__Length",
+						"format": {
+							"digitSeparator": false,
+							"places": 6
+						},
+						"isEditable": true,
+						"label": "Shape__Length",
+						"visible": false
+					},
+					{
+						"fieldName": "Location",
+						"isEditable": true,
+						"label": "Location",
+						"tooltip": "",
+						"visible": false
+					},
+					{
+						"fieldName": "Year_text",
+						"isEditable": true,
+						"label": "Year",
+						"visible": true
+					},
+					{
+						"fieldName": "PolygonGenerated",
+						"isEditable": true,
+						"label": "Polygon Generated?",
+						"visible": false
+					},
+					{
+						"fieldName": "SurveyType",
+						"isEditable": true,
+						"label": "Survey Type",
+						"visible": false
+					},
+					{
+						"fieldName": "SurveyMethod",
+						"isEditable": true,
+						"label": "Survey Method",
+						"visible": false
+					},
+					{
+						"fieldName": "Harbour",
+						"isEditable": true,
+						"label": "Harbour",
+						"visible": false
+					},
+					{
+						"fieldName": "AreaName",
+						"isEditable": true,
+						"label": "Area Name",
+						"visible": false
+					},
+					{
+						"fieldName": "AverageDepth",
+						"isEditable": true,
+						"label": "Average Depth",
+						"visible": false
+					},
+					{
+						"fieldName": "CreationDate",
+						"isEditable": true,
+						"label": "CreationDate",
+						"visible": true
+					},
+					{
+						"fieldName": "Creator",
+						"isEditable": true,
+						"label": "Creator",
+						"visible": true
+					},
+					{
+						"fieldName": "EditDate",
+						"isEditable": true,
+						"label": "EditDate",
+						"visible": false
+					},
+					{
+						"fieldName": "Editor",
+						"isEditable": true,
+						"label": "Editor",
+						"visible": false
+					},
+					{
+						"fieldName": "Notes",
+						"isEditable": true,
+						"label": "Notes",
+						"visible": false
+					},
+					{
+						"fieldName": "AirOut",
+						"isEditable": true,
+						"label": "Air Out",
+						"visible": false
+					},
+					{
+						"fieldName": "AirIn",
+						"isEditable": true,
+						"label": "Air In",
+						"visible": false
+					},
+					{
+						"fieldName": "TimeOut",
+						"isEditable": true,
+						"label": "Time Out",
+						"visible": false
+					},
+					{
+						"fieldName": "TimeIn",
+						"isEditable": true,
+						"label": "Time In",
+						"visible": false
+					},
+					{
+						"fieldName": "DiverName",
+						"isEditable": true,
+						"label": "Diver name",
+						"visible": false
+					},
+					{
+						"fieldName": "expression/expr0",
+						"format": {
+							"digitSeparator": false,
+							"places": 2
+						},
+						"isEditable": true,
+						"visible": true
+					}
+				],
+				"popupElements": [
+					{
+						"description": "",
+						"fieldInfos": [
+							{
+								"fieldName": "DateCaptured",
+								"isEditable": true,
+								"label": "DateCaptured",
+								"visible": true
+							},
+							{
+								"fieldName": "Visibility",
+								"format": {
+									"digitSeparator": false,
+									"places": 0
+								},
+								"isEditable": true,
+								"label": "Visibility (m)",
+								"visible": true
+							},
+							{
+								"fieldName": "expression/expr0",
+								"format": {
+									"digitSeparator": false,
+									"places": 2
+								},
+								"isEditable": true,
+								"visible": true
+							},
+							{
+								"fieldName": "Creator",
+								"isEditable": true,
+								"label": "Creator",
+								"visible": true
+							},
+							{
+								"fieldName": "CreationDate",
+								"isEditable": true,
+								"label": "CreationDate",
+								"visible": true
+							},
+							{
+								"fieldName": "Year_text",
+								"isEditable": true,
+								"label": "Year",
+								"visible": true
+							}
+						],
+						"title": "",
+						"type": "fields"
+					}
+				],
+				"showLastEditInfo": false,
+				"title": "Diver Surveillance tracklog"
+			},
+			"title": "Surveillance tracklog",
+			"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Marine_Diver_Surveillance/FeatureServer/0",
+			"visibility": true
+		},
+		{
+			"disablePopup": true,
+			"id": "17f0f9ac762-layer-9",
+			"itemId": "8d304cbfb8ee413aa51c7676007f3177",
+			"layerType": "ArcGISFeatureLayer",
+			"popupInfo": {
+				"fieldInfos": [
+					{
+						"fieldName": "OBJECTID",
+						"isEditable": true,
+						"label": "OBJECTID",
+						"visible": false
+					},
+					{
+						"fieldName": "AreaName",
+						"isEditable": true,
+						"label": "AreaName",
+						"visible": true
+					},
+					{
+						"fieldName": "BerthNumber",
+						"format": {
+							"digitSeparator": true,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "BerthNumber",
+						"visible": true
+					},
+					{
+						"fieldName": "Comments",
+						"isEditable": true,
+						"label": "Comments",
+						"visible": true
+					},
+					{
+						"fieldName": "CopyCurrentBoat",
+						"isEditable": true,
+						"label": "Copy current boat at this berth",
+						"visible": true
+					},
+					{
+						"fieldName": "CreationDate",
+						"format": {
+							"dateFormat": "longMonthDayYear",
+							"digitSeparator": false
+						},
+						"isEditable": true,
+						"label": "CreationDate",
+						"visible": false
+					},
+					{
+						"fieldName": "Creator",
+						"isEditable": true,
+						"label": "Creator",
+						"visible": false
+					},
+					{
+						"fieldName": "DateOfMostRecentCheck",
+						"format": {
+							"dateFormat": "longMonthDayYear",
+							"digitSeparator": false
+						},
+						"isEditable": true,
+						"label": "Date of Most Recent Check",
+						"visible": true
+					},
+					{
+						"fieldName": "DistanceBuffered",
+						"format": {
+							"digitSeparator": true,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "DistanceBuffered",
+						"visible": true
+					},
+					{
+						"fieldName": "EditDate",
+						"format": {
+							"dateFormat": "longMonthDayYear",
+							"digitSeparator": false
+						},
+						"isEditable": true,
+						"label": "EditDate",
+						"visible": false
+					},
+					{
+						"fieldName": "Editor",
+						"isEditable": true,
+						"label": "Editor",
+						"visible": false
+					},
+					{
+						"fieldName": "GlobalID",
+						"isEditable": true,
+						"label": "GlobalID",
+						"visible": false
+					},
+					{
+						"fieldName": "GLOBALIDTEXT",
+						"isEditable": true,
+						"label": "",
+						"visible": true
+					},
+					{
+						"fieldName": "IDofCurrentBoat",
+						"isEditable": true,
+						"label": "IDofCurrentBoat",
+						"visible": true
+					},
+					{
+						"fieldName": "MarinaPier",
+						"isEditable": true,
+						"label": "MarinaPier",
+						"visible": true
+					},
+					{
+						"fieldName": "MH_ContactInfo",
+						"isEditable": true,
+						"label": "MH Contact",
+						"visible": true
+					},
+					{
+						"fieldName": "MooringHolder",
+						"isEditable": true,
+						"label": "Mooring Holder",
+						"visible": true
+					},
+					{
+						"fieldName": "MooringTagNumber",
+						"isEditable": true,
+						"label": "Mooring tag number",
+						"visible": true
+					},
+					{
+						"fieldName": "MostRecentConcatBoatDetails",
+						"isEditable": true,
+						"label": "Most recent concatenated boat details",
+						"visible": true
+					},
+					{
+						"fieldName": "MostRecent_LevelOfFoul",
+						"format": {
+							"digitSeparator": true,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "",
+						"visible": true
+					},
+					{
+						"fieldName": "MostRecentHazardBoolean",
+						"isEditable": true,
+						"label": "",
+						"visible": true
+					},
+					{
+						"fieldName": "MostRecentHazardComment",
+						"isEditable": true,
+						"label": "",
+						"visible": true
+					},
+					{
+						"fieldName": "NameOfMostRecentBoat",
+						"isEditable": true,
+						"label": "NameOfMostRecentBoat",
+						"visible": true
+					},
+					{
+						"fieldName": "PestFoundOnMostRecentRecord",
+						"isEditable": true,
+						"label": "Pest Found On Most Recent Record",
+						"visible": true
+					},
+					{
+						"fieldName": "PlaceID",
+						"isEditable": true,
+						"label": "PlaceID",
+						"visible": true
+					},
+					{
+						"fieldName": "PlaceType",
+						"isEditable": true,
+						"label": "PlaceType",
+						"visible": true
+					},
+					{
+						"fieldName": "Region",
+						"isEditable": true,
+						"label": "Region",
+						"visible": true
+					},
+					{
+						"fieldName": "Shape__Area",
+						"format": {
+							"digitSeparator": true,
+							"places": 2
+						},
+						"isEditable": true,
+						"label": "Shape__Area",
+						"visible": false
+					},
+					{
+						"fieldName": "Shape__Length",
+						"format": {
+							"digitSeparator": true,
+							"places": 2
+						},
+						"isEditable": true,
+						"label": "Shape__Length",
+						"visible": false
+					},
+					{
+						"fieldName": "Source",
+						"isEditable": true,
+						"label": "Source",
+						"visible": true
+					},
+					{
+						"fieldName": "SwingRadius",
+						"format": {
+							"digitSeparator": true,
+							"places": 2
+						},
+						"isEditable": true,
+						"label": "Swing Radius (m)",
+						"visible": true
+					},
+					{
+						"fieldName": "TestField",
+						"isEditable": true,
+						"label": "TestField",
+						"visible": true
+					},
+					{
+						"fieldName": "BoatPresentBooleanMostRecentChe",
+						"isEditable": true,
+						"label": "Was there a boat present on the most recent check?",
+						"visible": true
+					}
+				],
+				"popupElements": [
+					{
+						"description": "",
+						"fieldInfos": [
+							{
+								"fieldName": "AreaName",
+								"isEditable": true,
+								"label": "AreaName",
+								"visible": true
+							},
+							{
+								"fieldName": "BerthNumber",
+								"format": {
+									"digitSeparator": true,
+									"places": 0
+								},
+								"isEditable": true,
+								"label": "BerthNumber",
+								"visible": true
+							},
+							{
+								"fieldName": "Comments",
+								"isEditable": true,
+								"label": "Comments",
+								"visible": true
+							},
+							{
+								"fieldName": "CopyCurrentBoat",
+								"isEditable": true,
+								"label": "Copy current boat at this berth",
+								"visible": true
+							},
+							{
+								"fieldName": "DateOfMostRecentCheck",
+								"format": {
+									"dateFormat": "longMonthDayYear",
+									"digitSeparator": false
+								},
+								"isEditable": true,
+								"label": "Date of Most Recent Check",
+								"visible": true
+							},
+							{
+								"fieldName": "DistanceBuffered",
+								"format": {
+									"digitSeparator": true,
+									"places": 0
+								},
+								"isEditable": true,
+								"label": "DistanceBuffered",
+								"visible": true
+							},
+							{
+								"fieldName": "GLOBALIDTEXT",
+								"isEditable": true,
+								"label": "",
+								"visible": true
+							},
+							{
+								"fieldName": "IDofCurrentBoat",
+								"isEditable": true,
+								"label": "IDofCurrentBoat",
+								"visible": true
+							},
+							{
+								"fieldName": "MarinaPier",
+								"isEditable": true,
+								"label": "MarinaPier",
+								"visible": true
+							},
+							{
+								"fieldName": "MH_ContactInfo",
+								"isEditable": true,
+								"label": "MH Contact",
+								"visible": true
+							},
+							{
+								"fieldName": "MooringHolder",
+								"isEditable": true,
+								"label": "Mooring Holder",
+								"visible": true
+							},
+							{
+								"fieldName": "MooringTagNumber",
+								"isEditable": true,
+								"label": "Mooring tag number",
+								"visible": true
+							},
+							{
+								"fieldName": "MostRecentConcatBoatDetails",
+								"isEditable": true,
+								"label": "Most recent concatenated boat details",
+								"visible": true
+							},
+							{
+								"fieldName": "MostRecent_LevelOfFoul",
+								"format": {
+									"digitSeparator": true,
+									"places": 0
+								},
+								"isEditable": true,
+								"label": "",
+								"visible": true
+							},
+							{
+								"fieldName": "MostRecentHazardBoolean",
+								"isEditable": true,
+								"label": "",
+								"visible": true
+							},
+							{
+								"fieldName": "MostRecentHazardComment",
+								"isEditable": true,
+								"label": "",
+								"visible": true
+							},
+							{
+								"fieldName": "NameOfMostRecentBoat",
+								"isEditable": true,
+								"label": "NameOfMostRecentBoat",
+								"visible": true
+							},
+							{
+								"fieldName": "PestFoundOnMostRecentRecord",
+								"isEditable": true,
+								"label": "Pest Found On Most Recent Record",
+								"visible": true
+							},
+							{
+								"fieldName": "PlaceID",
+								"isEditable": true,
+								"label": "PlaceID",
+								"visible": true
+							},
+							{
+								"fieldName": "PlaceType",
+								"isEditable": true,
+								"label": "PlaceType",
+								"visible": true
+							},
+							{
+								"fieldName": "Region",
+								"isEditable": true,
+								"label": "Region",
+								"visible": true
+							},
+							{
+								"fieldName": "Source",
+								"isEditable": true,
+								"label": "Source",
+								"visible": true
+							},
+							{
+								"fieldName": "SwingRadius",
+								"format": {
+									"digitSeparator": true,
+									"places": 2
+								},
+								"isEditable": true,
+								"label": "Swing Radius (m)",
+								"visible": true
+							},
+							{
+								"fieldName": "TestField",
+								"isEditable": true,
+								"label": "TestField",
+								"visible": true
+							},
+							{
+								"fieldName": "BoatPresentBooleanMostRecentChe",
+								"isEditable": true,
+								"label": "Was there a boat present on the most recent check?",
+								"visible": true
+							}
+						],
+						"title": "",
+						"type": "fields"
+					},
+					{
+						"description": "",
+						"displayType": "preview",
+						"title": "",
+						"type": "attachments"
+					}
+				],
+				"showAttachments": true,
+				"title": "Berths_Boats_and_Records_HAZARDS_view: {AreaName}"
+			},
+			"title": "Hazard",
+			"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Berths_Boats_and_Records_HAZARDS_view/FeatureServer/0"
+		},
+		{
+			"formInfo": {
+				"expressionInfos": [
+					{
+						"expression": "false",
+						"name": "expr/system/false",
+						"returnType": "boolean",
+						"title": "False"
+					},
+					{
+						"expression": "true",
+						"name": "expr/system/true",
+						"returnType": "boolean",
+						"title": "True"
+					},
+					{
+						"expression": "if (IsEmpty(Geometry($feature))){\r\n	return;\r\n}\r\nelse{\r\n	var Reg = Intersects($feature, FeatureSetByName($map,\"Repeatable Surveillance Areas\")); //Project Areas Extent is the name of the source Intersecting polygon layer in the webmap\r\n	 if (Count(Reg) == 1){ \r\n	   return Text(First(Reg).Area_Name);  //Gets the value from the field GroupName from the source intersecting polygon in the webmap\r\n	 }\r\n}",
+						"name": "expr/pull-area",
+						"returnType": "string",
+						"title": "Pull area"
+					}
+				],
+				"formElements": [
+					{
+						"formElements": [
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "LineNumber",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "LineNumber",
+								"type": "field"
+							},
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "LineName",
+								"inputType": {
+									"maxLength": 255,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "LineName",
+								"type": "field"
+							},
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "DateOfMostRecentCheck",
+								"inputType": {
+									"includeTime": false,
+									"type": "datetime-picker"
+								},
+								"label": "DateOfMostRecentCheck",
+								"type": "field"
+							},
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "PestFoundOnMostRecentRecord",
+								"inputType": {
+									"maxLength": 255,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "PestFoundOnMostRecentRecord",
+								"type": "field"
+							},
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "MostRecentLineStatus",
+								"inputType": {
+									"maxLength": 255,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "MostRecentLineStatus",
+								"type": "field"
+							},
+							{
+								"editableExpression": "expr/system/false",
+								"fieldName": "AreaName",
+								"inputType": {
+									"maxLength": 255,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "AreaName",
+								"type": "field",
+								"valueExpression": "expr/pull-area"
+							}
+						],
+						"initialState": "expanded",
+						"label": "Mussel Farm Line",
+						"type": "group"
+					}
+				],
+				"title": "{LineName}"
+			},
+			"id": "197138394e9-layer-20",
+			"itemId": "5ff0c4274ecf4d519e0aaeb0513c9a28",
+			"layerDefinition": {
+				"drawingInfo": {
+					"renderer": {
+						"type": "uniqueValue",
+						"uniqueValueGroups": [
+							{
+								"classes": [
+									{
+										"label": "Inspected and No Pest Found",
+										"symbol": {
+											"color": [
+												60,
+												204,
+												20,
+												204
+											],
+											"style": "esriSLSSolid",
+											"type": "esriSLS",
+											"width": 6
+										},
+										"values": [
+											[
+												"Inspected and No Pest Found"
+											]
+										]
+									},
+									{
+										"label": "Inspected and Pest Found",
+										"symbol": {
+											"color": [
+												196,
+												54,
+												180,
+												204
+											],
+											"style": "esriSLSSolid",
+											"type": "esriSLS",
+											"width": 6
+										},
+										"values": [
+											[
+												"Inspected and Pest Found"
+											]
+										]
+									},
+									{
+										"label": "Not Inspected",
+										"symbol": {
+											"color": [
+												244,
+												247,
+												64,
+												204
+											],
+											"style": "esriSLSSolid",
+											"type": "esriSLS",
+											"width": 6
+										},
+										"values": [
+											[
+												"Not Inspected"
+											]
+										]
+									}
+								]
+							}
+						],
+						"uniqueValueInfos": [
+							{
+								"label": "Inspected and No Pest Found",
+								"symbol": {
+									"color": [
+										60,
+										204,
+										20,
+										204
+									],
+									"style": "esriSLSSolid",
+									"type": "esriSLS",
+									"width": 6
+								},
+								"value": "Inspected and No Pest Found"
+							},
+							{
+								"label": "Inspected and Pest Found",
+								"symbol": {
+									"color": [
+										196,
+										54,
+										180,
+										204
+									],
+									"style": "esriSLSSolid",
+									"type": "esriSLS",
+									"width": 6
+								},
+								"value": "Inspected and Pest Found"
+							},
+							{
+								"label": "Not Inspected",
+								"symbol": {
+									"color": [
+										244,
+										247,
+										64,
+										204
+									],
+									"style": "esriSLSSolid",
+									"type": "esriSLS",
+									"width": 6
+								},
+								"value": "Not Inspected"
+							}
+						],
+						"valueExpression": "var hasInspection = !IsEmpty($feature.DateOfMostRecentCheck)\r\n\r\nvar symbol = iif(\r\n  hasInspection,\r\n	iif(\r\n	  $feature.PestFoundOnMostRecentRecord == \"Yes\",\r\n	  \"Inspected and Pest Found\",\r\n	  \"Inspected and No Pest Found\"\r\n	),\r\n  \"Not Inspected\"\r\n)\r\n\r\nreturn symbol\r\n",
+						"valueExpressionTitle": "Most recent inspections",
+						"visualVariables": [
+							{
+								"stops": [
+									{
+										"size": 12,
+										"value": 18055.954822
+									},
+									{
+										"size": 6,
+										"value": 144447.638572
+									}
+								],
+								"type": "sizeInfo",
+								"valueExpression": "$view.scale"
+							}
+						]
+					}
+				}
+			},
+			"layerType": "ArcGISFeatureLayer",
+			"title": "Mussel Farm Line",
+			"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Mussel_Farm_Inspection/FeatureServer/0"
+		}
+	],
+	"spatialReference": {
+		"latestWkid": 3857,
+		"wkid": 102100
+	},
+	"tables": [
+		{
+			"formInfo": {
+				"expressionInfos": [
+					{
+						"expression": "false",
+						"name": "expr/system/false",
+						"returnType": "boolean",
+						"title": "False"
+					},
+					{
+						"expression": "true",
+						"name": "expr/system/true",
+						"returnType": "boolean",
+						"title": "True"
+					}
+				],
+				"formElements": [
+					{
+						"formElements": [
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "DateChecked",
+								"inputType": {
+									"includeTime": false,
+									"type": "datetime-picker"
+								},
+								"label": "DateChecked",
+								"type": "field"
+							},
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "LineStatus",
+								"inputType": {
+									"noValueOptionLabel": "No value",
+									"showNoValueOption": true,
+									"type": "combo-box"
+								},
+								"label": "LineStatus",
+								"type": "field"
+							},
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "PestFoundBoolean",
+								"inputType": {
+									"noValueOptionLabel": "No value",
+									"showNoValueOption": true,
+									"type": "combo-box"
+								},
+								"label": "PestFoundBoolean",
+								"type": "field"
+							},
+							{
+								"text": "**Note:** Pests have been found on this line.  \nAfter submitting this inspection record, you must return to **FieldMaps** and add a **Target Pest Point** on this line.",
+								"textFormat": "markdown",
+								"type": "text"
+							}
+						],
+						"initialState": "expanded",
+						"label": "Mussel Farm Inspection Record",
+						"type": "group"
+					}
+				],
+				"title": "{LineStatus}"
+			},
+			"id": "197138394e9-layer-21",
+			"itemId": "5ff0c4274ecf4d519e0aaeb0513c9a28",
+			"title": "Mussel Farm Inspection",
+			"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Mussel_Farm_Inspection/FeatureServer/1"
+		},
+		{
+			"formInfo": {
+				"expressionInfos": [
+					{
+						"expression": "false",
+						"name": "expr/system/false",
+						"returnType": "boolean",
+						"title": "False"
+					},
+					{
+						"expression": "true",
+						"name": "expr/system/true",
+						"returnType": "boolean",
+						"title": "True"
+					},
+					{
+						"expression": "var guidy = $feature. GUID; \r\n\r\nif (IsEmpty(guidy)){ \r\n\r\n  return; \r\n\r\n} \r\n\r\nelse{ \r\n\r\nvar tblparent = FeatureSetByName($map, \"Repeatable Surveillance Areas\",['GlobalID','WharfPilesChecked','OBJECTID'],False); \r\n\r\nvar sql = \"GlobalID = '\" + guidy + \"'\"; \r\n\r\nvar reltable = Filter(tblparent, sql); \r\n\r\nvar oneline = First(OrderBy(reltable,'OBJECTID')); \r\n\r\nvar piles = oneline.WharfPilesChecked \r\n\r\nreturn piles \r\n\r\n} ",
+						"name": "expr/copy-piles-from-parent",
+						"returnType": "string",
+						"title": "Copy piles from parent"
+					},
+					{
+						"expression": "var guidy = $feature. GUID; \r\n\r\nif (IsEmpty(guidy)){ \r\n\r\n  return; \r\n\r\n} \r\n\r\nelse{ \r\n\r\nvar tblparent = FeatureSetByName($map, \"Repeatable Surveillance Areas\",['GlobalID','LengthPontoons','OBJECTID'],False); \r\n\r\nvar sql = \"GlobalID = '\" + guidy + \"'\"; \r\n\r\nvar reltable = Filter(tblparent, sql); \r\n\r\nvar oneline = First(OrderBy(reltable,'OBJECTID')); \r\n\r\nvar piles = oneline.LengthPontoons \r\n\r\nreturn piles \r\n\r\n} ",
+						"name": "expr/copy-length-from-parent",
+						"returnType": "string",
+						"title": "Copy length from parent"
+					},
+					{
+						"expression": "DomainName($feature, \"PestFoundBoolean\") == \"Yes\"",
+						"name": "expr",
+						"returnType": "boolean",
+						"title": "Pest found"
+					}
+				],
+				"formElements": [
+					{
+						"editable": true,
+						"fieldName": "DateChecked",
+						"inputType": {
+							"includeTime": true,
+							"type": "datetime-picker"
+						},
+						"label": "Date Checked",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "BenthicHabitat",
+						"inputType": {
+							"maxLength": 255,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Benthic Habitat",
+						"type": "field"
+					},
+					{
+						"editableExpression": "expr/system/false",
+						"fieldName": "NumberPilesChecked",
+						"inputType": {
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Number Piles Checked",
+						"type": "field",
+						"valueExpression": "expr/copy-piles-from-parent"
+					},
+					{
+						"editableExpression": "expr/system/false",
+						"fieldName": "LengthPontoons",
+						"inputType": {
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Length Pontoons",
+						"type": "field",
+						"valueExpression": "expr/copy-length-from-parent"
+					},
+					{
+						"editable": true,
+						"fieldName": "SurveyType",
+						"inputType": {
+							"noValueOptionLabel": "No value",
+							"showNoValueOption": true,
+							"type": "combo-box"
+						},
+						"label": "Survey Type",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "SurveyMethod",
+						"inputType": {
+							"noValueOptionLabel": "No value",
+							"showNoValueOption": true,
+							"type": "combo-box"
+						},
+						"label": "Survey Method",
+						"type": "field"
+					},
+					{
+						"formElements": [
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "PestFoundBoolean",
+								"inputType": {
+									"showNoValueOption": false,
+									"type": "radio-buttons"
+								},
+								"label": "Pest Found?",
+								"type": "field"
+							},
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "PestSpecies",
+								"inputType": {
+									"noValueOptionLabel": "No value",
+									"showNoValueOption": true,
+									"type": "combo-box"
+								},
+								"label": "Pest Species",
+								"type": "field",
+								"visibilityExpression": "expr"
+							},
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "SpeciesCount",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Species Count",
+								"type": "field",
+								"visibilityExpression": "expr"
+							},
+							{
+								"editableExpression": "expr/system/true",
+								"fieldName": "SpeciesSize",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Species Size (mm)",
+								"type": "field",
+								"visibilityExpression": "expr"
+							}
+						],
+						"initialState": "expanded",
+						"label": "Marine Pests",
+						"type": "group"
+					},
+					{
+						"editable": true,
+						"fieldName": "Notes",
+						"inputType": {
+							"maxLength": 500,
+							"minLength": 0,
+							"type": "text-area"
+						},
+						"label": "Notes",
+						"type": "field"
+					}
+				],
+				"title": "Surveillance area inspection record {DateChecked}"
+			},
+			"id": "17de49dd79e-layer-14",
+			"itemId": "70048386b7b04e478722446cbdb07f59",
+			"popupInfo": {
+				"expressionInfos": [
+				],
+				"fieldInfos": [
+					{
+						"fieldName": "OBJECTID",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "OBJECTID",
+						"visible": true
+					},
+					{
+						"fieldName": "AreaName",
+						"isEditable": true,
+						"label": "AreaName",
+						"visible": false
+					},
+					{
+						"fieldName": "SubsectionArea",
+						"isEditable": true,
+						"label": "Subsection Area",
+						"visible": false
+					},
+					{
+						"fieldName": "DateChecked",
+						"isEditable": true,
+						"label": "DateChecked",
+						"visible": true
+					},
+					{
+						"fieldName": "Notes",
+						"isEditable": true,
+						"label": "Notes",
+						"visible": true
+					},
+					{
+						"fieldName": "WaterType",
+						"isEditable": true,
+						"label": "WaterType",
+						"visible": true
+					},
+					{
+						"fieldName": "AverageDepth",
+						"format": {
+							"digitSeparator": false,
+							"places": 6
+						},
+						"isEditable": true,
+						"label": "AverageDepth",
+						"visible": true
+					},
+					{
+						"fieldName": "GUID",
+						"isEditable": true,
+						"label": "GUID",
+						"visible": false
+					},
+					{
+						"fieldName": "NumberPilesChecked",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "NumberPilesChecked",
+						"visible": true
+					},
+					{
+						"fieldName": "BenthicHabitat",
+						"isEditable": true,
+						"label": "BenthicHabitat",
+						"visible": true
+					},
+					{
+						"fieldName": "LengthPontoons",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "LengthPontoons",
+						"visible": true
+					},
+					{
+						"fieldName": "Field",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "Field",
+						"visible": false
+					},
+					{
+						"fieldName": "GlobalID",
+						"isEditable": true,
+						"label": "GlobalID",
+						"visible": false
+					},
+					{
+						"fieldName": "CreationDate",
+						"isEditable": true,
+						"label": "CreationDate",
+						"visible": false
+					},
+					{
+						"fieldName": "Creator",
+						"isEditable": true,
+						"label": "Creator",
+						"visible": false
+					},
+					{
+						"fieldName": "EditDate",
+						"isEditable": true,
+						"label": "EditDate",
+						"visible": false
+					},
+					{
+						"fieldName": "Editor",
+						"isEditable": true,
+						"label": "Editor",
+						"visible": false
+					}
+				],
+				"popupElements": [
+					{
+						"description": "",
+						"fieldInfos": [
+							{
+								"fieldName": "OBJECTID",
+								"format": {
+									"digitSeparator": false,
+									"places": 0
+								},
+								"isEditable": true,
+								"label": "OBJECTID",
+								"visible": true
+							},
+							{
+								"fieldName": "DateChecked",
+								"isEditable": true,
+								"label": "DateChecked",
+								"visible": true
+							},
+							{
+								"fieldName": "Notes",
+								"isEditable": true,
+								"label": "Notes",
+								"visible": true
+							},
+							{
+								"fieldName": "WaterType",
+								"isEditable": true,
+								"label": "WaterType",
+								"visible": true
+							},
+							{
+								"fieldName": "AverageDepth",
+								"format": {
+									"digitSeparator": false,
+									"places": 6
+								},
+								"isEditable": true,
+								"label": "AverageDepth",
+								"visible": true
+							},
+							{
+								"fieldName": "NumberPilesChecked",
+								"format": {
+									"digitSeparator": false,
+									"places": 0
+								},
+								"isEditable": true,
+								"label": "NumberPilesChecked",
+								"visible": true
+							},
+							{
+								"fieldName": "BenthicHabitat",
+								"isEditable": true,
+								"label": "BenthicHabitat",
+								"visible": true
+							},
+							{
+								"fieldName": "LengthPontoons",
+								"format": {
+									"digitSeparator": false,
+									"places": 0
+								},
+								"isEditable": true,
+								"label": "LengthPontoons",
+								"visible": true
+							}
+						],
+						"title": "",
+						"type": "fields"
+					}
+				],
+				"title": "Inspected {DateChecked}"
+			},
+			"title": "Surveillance area inspection records",
+			"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Surveillance_records_and_inspections/FeatureServer/9"
+		},
+		{
+			"formInfo": {
+				"expressionInfos": [
+					{
+						"expression": "false",
+						"name": "expr/system/false",
+						"returnType": "boolean",
+						"title": "False"
+					},
+					{
+						"expression": "true",
+						"name": "expr/system/true",
+						"returnType": "boolean",
+						"title": "True"
+					},
+					{
+						"expression": "true",
+						"name": "expr0",
+						"returnType": "boolean",
+						"title": "Is Required"
+					},
+					{
+						"expression": "true",
+						"name": "expr1",
+						"returnType": "boolean",
+						"title": "Is Required"
+					},
+					{
+						"expression": "DomainName($feature, \"BoatPresentBoolean\") == \"Yes\"",
+						"name": "expr2",
+						"returnType": "boolean",
+						"title": "Show if Boat present == Yes"
+					},
+					{
+						"expression": "DomainName($feature, \"MSANumberBoolean\") == \"Yes\"",
+						"name": "expr3",
+						"returnType": "boolean",
+						"title": "MSA number is visible"
+					},
+					{
+						"expression": "DomainName($feature, \"SameBoatBoolean\") == \"No\"",
+						"name": "expr4",
+						"returnType": "boolean",
+						"title": "Show if same boat as last time == No"
+					},
+					{
+						"expression": "DomainName($feature, \"BoatType\") == \"Trimaran (sailing)\" || DomainName($feature, \"BoatType\") == \"Single Hull Yacht (sailing keeler)\" || DomainName($feature, \"BoatType\") == \"Trailer sailer\" || DomainName($feature, \"BoatType\") == \"Waka\"",
+						"name": "expr5",
+						"returnType": "boolean",
+						"title": "Boat type is sailing boat"
+					},
+					{
+						"expression": "DomainName($feature, \"BoatType\") == \"Other\"",
+						"name": "expr6",
+						"returnType": "boolean",
+						"title": "Boat Type is Other"
+					},
+					{
+						"expression": "DomainName($feature, \"Colour1\") == \"Other\"",
+						"name": "expr7",
+						"returnType": "boolean",
+						"title": "Hull colour is other"
+					},
+					{
+						"expression": "DomainName($feature, \"Colour2\") == \"Other\"",
+						"name": "expr8",
+						"returnType": "boolean",
+						"title": "Show if Trim Colour == Other"
+					},
+					{
+						"expression": "DomainName($feature, \"HullInspectedBoolean\") == \"Yes\"",
+						"name": "expr9",
+						"returnType": "boolean",
+						"title": "Show if hull inspection == Yes"
+					},
+					{
+						"expression": "DomainName($feature, \"PestFoundBoolean\") == \"Yes\"",
+						"name": "expr11",
+						"returnType": "boolean",
+						"title": "Show if Species found == Yes"
+					},
+					{
+						"expression": "DomainName($feature, \"BoatNameBoolean\") == \"Yes\"",
+						"name": "expr17",
+						"returnType": "boolean",
+						"title": "Boat Name Boolean is YES"
+					},
+					{
+						"expression": "DomainName($feature, \"MediterraneanFanworm_Boolean\") == \"Yes\"",
+						"name": "expr18",
+						"returnType": "boolean",
+						"title": "fanwormyes"
+					},
+					{
+						"expression": "DomainName($feature, \"ClubbedTunicate_Boolean\") == \"Yes\"",
+						"name": "expr19",
+						"returnType": "boolean",
+						"title": "stelayes"
+					},
+					{
+						"expression": "DomainName($feature, \"LightbulbAscidian_Boolean\") == \"Yes\"",
+						"name": "expr20",
+						"returnType": "boolean",
+						"title": "lightbulb yes"
+					},
+					{
+						"expression": "DomainName($feature, \"AustralianDropletTunicate_Boo\") == \"Yes\"",
+						"name": "expr21",
+						"returnType": "boolean",
+						"title": "austdropletYes"
+					},
+					{
+						"expression": "DomainName($feature, \"DoppelgangerCunjevoi_Boolean\") == \"Yes\"",
+						"name": "expr22",
+						"returnType": "boolean",
+						"title": "PyuraYes"
+					},
+					{
+						"expression": "DomainName($feature, \"Undaria_Boolean\") == \"Yes\"",
+						"name": "expr23",
+						"returnType": "boolean",
+						"title": "UNdariaYes"
+					},
+					{
+						"expression": "!IsEmpty($feature[\"PestFoundOtherText\"])",
+						"name": "expr24",
+						"returnType": "boolean",
+						"title": "Otheryes"
+					},
+					{
+						"expression": "\"Field Maps\"",
+						"name": "expr/new-expression",
+						"returnType": "string",
+						"title": "New expression"
+					},
+					{
+						"expression": "DomainName($feature, \"ClavelinaOblonga_Boolean\") == \"Yes\"",
+						"name": "expr25",
+						"returnType": "boolean",
+						"title": "clavelina =yes"
+					},
+					{
+						"expression": "DomainName($feature, \"Didemnum_Boolean\") == \"Yes\"",
+						"name": "expr26",
+						"returnType": "boolean",
+						"title": "Didemnum = Yes"
+					}
+				],
+				"formElements": [
+					{
+						"formElements": [
+						],
+						"initialState": "expanded",
+						"label": "EDIT/VIEW existing records. For NEW records, return to the Berths/Moorings pop-up and launch the Survey123 form there.",
+						"type": "group"
+					},
+					{
+						"description": "Double click this for current date/time",
+						"editable": true,
+						"fieldName": "DateChecked",
+						"inputType": {
+							"includeTime": true,
+							"type": "datetime-picker"
+						},
+						"label": "Date Checked",
+						"requiredExpression": "expr0",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "BoatPresentBoolean",
+						"inputType": {
+							"offValue": "No",
+							"onValue": "Yes",
+							"type": "switch"
+						},
+						"label": "Is there a boat present?",
+						"requiredExpression": "expr1",
+						"type": "field"
+					},
+					{
+						"editable": true,
+						"fieldName": "MSANumberBoolean",
+						"inputType": {
+							"offValue": "No",
+							"onValue": "Yes",
+							"type": "switch"
+						},
+						"label": "Does it have an MSA number visible?",
+						"type": "field",
+						"visibilityExpression": "expr2"
+					},
+					{
+						"editable": true,
+						"fieldName": "MSANumber",
+						"inputType": {
+							"maxLength": 256,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "MSA Number",
+						"type": "field",
+						"visibilityExpression": "expr3"
+					},
+					{
+						"editable": true,
+						"fieldName": "BoatNameBoolean",
+						"inputType": {
+							"offValue": "Yes",
+							"onValue": "No",
+							"type": "switch"
+						},
+						"label": "Does the boat have a name?",
+						"type": "field",
+						"visibilityExpression": "expr2"
+					},
+					{
+						"editable": true,
+						"fieldName": "BoatName",
+						"inputType": {
+							"maxLength": 255,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Boat Name",
+						"type": "field",
+						"visibilityExpression": "expr17"
+					},
+					{
+						"formElements": [
+							{
+								"editable": true,
+								"fieldName": "BoatType",
+								"inputType": {
+									"showNoValueOption": false,
+									"type": "combo-box"
+								},
+								"label": "Boat Type",
+								"type": "field"
+							},
+							{
+								"editable": true,
+								"fieldName": "NumberOfMasts",
+								"inputType": {
+									"showNoValueOption": false,
+									"type": "combo-box"
+								},
+								"label": "Number of masts",
+								"type": "field",
+								"visibilityExpression": "expr5"
+							},
+							{
+								"editable": true,
+								"fieldName": "BoatTypeOther",
+								"inputType": {
+									"maxLength": 256,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Boat Type Other",
+								"type": "field",
+								"visibilityExpression": "expr6"
+							},
+							{
+								"editable": true,
+								"fieldName": "Colour1",
+								"inputType": {
+									"showNoValueOption": false,
+									"type": "combo-box"
+								},
+								"label": "Hull Colour",
+								"type": "field"
+							},
+							{
+								"editable": true,
+								"fieldName": "HullColourOther",
+								"inputType": {
+									"maxLength": 256,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Hull Colour Other",
+								"type": "field",
+								"visibilityExpression": "expr7"
+							},
+							{
+								"editable": true,
+								"fieldName": "Colour2",
+								"inputType": {
+									"showNoValueOption": false,
+									"type": "combo-box"
+								},
+								"label": "Trim Colour",
+								"type": "field"
+							},
+							{
+								"editable": true,
+								"fieldName": "TrimColourOther",
+								"inputType": {
+									"maxLength": 256,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Trim Colour Other",
+								"type": "field",
+								"visibilityExpression": "expr8"
+							},
+							{
+								"editable": true,
+								"fieldName": "BoatLength",
+								"inputType": {
+									"showNoValueOption": false,
+									"type": "combo-box"
+								},
+								"label": "Boat Length",
+								"type": "field"
+							},
+							{
+								"editable": true,
+								"fieldName": "Comments",
+								"inputType": {
+									"maxLength": 3000,
+									"minLength": 0,
+									"type": "text-area"
+								},
+								"label": "Comments about distinguishing features of boat",
+								"type": "field"
+							}
+						],
+						"initialState": "expanded",
+						"label": "Boat details",
+						"type": "group",
+						"visibilityExpression": "expr2"
+					},
+					{
+						"editable": true,
+						"fieldName": "HullInspectedBoolean",
+						"inputType": {
+							"offValue": "No",
+							"onValue": "Yes",
+							"type": "switch"
+						},
+						"label": "Was a hull inspection done?",
+						"type": "field",
+						"visibilityExpression": "expr2"
+					},
+					{
+						"formElements": [
+							{
+								"editable": true,
+								"fieldName": "LevelOfFoul",
+								"inputType": {
+									"showNoValueOption": false,
+									"type": "combo-box"
+								},
+								"label": "Level of foul",
+								"type": "field",
+								"visibilityExpression": "expr9"
+							},
+							{
+								"editable": true,
+								"fieldName": "PestFoundBoolean",
+								"inputType": {
+									"noValueOptionLabel": "No value",
+									"showNoValueOption": true,
+									"type": "radio-buttons"
+								},
+								"label": "Was a target species found?",
+								"type": "field",
+								"visibilityExpression": "expr9"
+							},
+							{
+								"editable": true,
+								"fieldName": "MediterraneanFanworm_Boolean",
+								"inputType": {
+									"offValue": "No",
+									"onValue": "Yes",
+									"type": "switch"
+								},
+								"label": "Mediterranean Fanworm",
+								"type": "field",
+								"visibilityExpression": "expr11"
+							},
+							{
+								"editable": true,
+								"fieldName": "MediterraneanfanwormCount",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Mediterranean fanworm Count",
+								"type": "field",
+								"visibilityExpression": "expr18"
+							},
+							{
+								"description": "",
+								"editable": true,
+								"fieldName": "ClubbedTunicate_Boolean",
+								"inputType": {
+									"offValue": "No",
+									"onValue": "Yes",
+									"type": "switch"
+								},
+								"label": "Styela sea squirt",
+								"type": "field",
+								"visibilityExpression": "expr11"
+							},
+							{
+								"editable": true,
+								"fieldName": "StyelaseasquirtCount",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Styela sea squirt Count",
+								"type": "field",
+								"visibilityExpression": "expr19"
+							},
+							{
+								"editable": true,
+								"fieldName": "LightbulbAscidian_Boolean",
+								"inputType": {
+									"offValue": "No",
+									"onValue": "Yes",
+									"type": "switch"
+								},
+								"label": "Light bulb Ascidian",
+								"type": "field",
+								"visibilityExpression": "expr11"
+							},
+							{
+								"editable": true,
+								"fieldName": "LightbulbascidianCount",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Lightbulb ascidian Count",
+								"type": "field",
+								"visibilityExpression": "expr20"
+							},
+							{
+								"editable": true,
+								"fieldName": "AustralianDropletTunicate_Boo",
+								"inputType": {
+									"offValue": "No",
+									"onValue": "Yes",
+									"type": "switch"
+								},
+								"label": "Australian Droplet Tunicate",
+								"type": "field",
+								"visibilityExpression": "expr11"
+							},
+							{
+								"editable": true,
+								"fieldName": "AusdroplettunicateCount",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Australian droplet tunicate Count",
+								"type": "field",
+								"visibilityExpression": "expr21"
+							},
+							{
+								"description": "",
+								"editable": true,
+								"editableExpression": "expr/system/true",
+								"fieldName": "ClavelinaOblonga_Boolean",
+								"inputType": {
+									"offValue": "No",
+									"onValue": "Yes",
+									"type": "switch"
+								},
+								"label": "Clavelina Oblonga",
+								"type": "field",
+								"visibilityExpression": "expr11"
+							},
+							{
+								"description": "",
+								"editable": true,
+								"editableExpression": "expr/system/true",
+								"fieldName": "ClavelinaOblongaCount",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Clavelina Oblonga Count",
+								"type": "field",
+								"visibilityExpression": "expr25"
+							},
+							{
+								"description": "",
+								"editable": true,
+								"editableExpression": "expr/system/true",
+								"fieldName": "Didemnum_Boolean",
+								"inputType": {
+									"offValue": "No",
+									"onValue": "Yes",
+									"type": "switch"
+								},
+								"label": "Didemnum ",
+								"type": "field",
+								"visibilityExpression": "expr11"
+							},
+							{
+								"description": "",
+								"editable": true,
+								"editableExpression": "expr/system/true",
+								"fieldName": "DidemnumCount",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Didemnum Count",
+								"type": "field",
+								"visibilityExpression": "expr26"
+							},
+							{
+								"editable": true,
+								"fieldName": "DoppelgangerCunjevoi_Boolean",
+								"inputType": {
+									"offValue": "No",
+									"onValue": "Yes",
+									"type": "switch"
+								},
+								"label": "Pyura sea squirt",
+								"type": "field",
+								"visibilityExpression": "expr11"
+							},
+							{
+								"editable": true,
+								"fieldName": "PyuraseasquirtCount",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Pyura sea squirt spp. Count",
+								"type": "field",
+								"visibilityExpression": "expr22"
+							},
+							{
+								"editable": true,
+								"fieldName": "Undaria_Boolean",
+								"inputType": {
+									"noValueOptionLabel": "No value",
+									"showNoValueOption": true,
+									"type": "combo-box"
+								},
+								"label": "Undaria",
+								"type": "field",
+								"visibilityExpression": "expr11"
+							},
+							{
+								"editable": true,
+								"fieldName": "WakameUndariaCount",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Undaria Count",
+								"type": "field",
+								"visibilityExpression": "expr23"
+							},
+							{
+								"editable": true,
+								"fieldName": "PestFoundOtherText",
+								"inputType": {
+									"maxLength": 1000,
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Other pest (add name of pest here)",
+								"type": "field",
+								"visibilityExpression": "expr11"
+							},
+							{
+								"editable": true,
+								"fieldName": "OtherCount",
+								"inputType": {
+									"minLength": 0,
+									"type": "text-box"
+								},
+								"label": "Other Count",
+								"type": "field",
+								"visibilityExpression": "expr24"
+							},
+							{
+								"editable": true,
+								"fieldName": "HullInspectionNotes",
+								"inputType": {
+									"maxLength": 2000,
+									"minLength": 0,
+									"type": "text-area"
+								},
+								"label": "Hull inspection notes",
+								"type": "field",
+								"visibilityExpression": "expr9"
+							}
+						],
+						"initialState": "expanded",
+						"label": "Inspection details",
+						"type": "group",
+						"visibilityExpression": "expr2"
+					},
+					{
+						"description": "",
+						"editable": false,
+						"fieldName": "Source",
+						"inputType": {
+							"maxLength": 255,
+							"minLength": 0,
+							"type": "text-box"
+						},
+						"label": "Source",
+						"type": "field",
+						"valueExpression": "expr/new-expression"
+					}
+				],
+				"title": "Edit/View existing records"
+			},
+			"id": "17de480085c-layer-9",
+			"itemId": "a6a3999c46784a048f99db8b8c23ac46",
+			"popupInfo": {
+				"description": "<p>Inspection done on {DateChecked}&nbsp;</p><p>{expression/expr0}&nbsp;</p>",
+				"expressionInfos": [
+					{
+						"expression": "var boatdetails = iif($feature.BoatPresentBoolean == \"Yes\",\"Boat name: \" + $feature.BoatName,\"No boat was present\")\nvar LOF = \"Level of foul = \" + $feature.LevelOfFoul\nvar TargetPest = iif($feature.PestFoundBoolean == \"Yes\",\"Target pest found = \" + $feature.PestFound,\"No target pests found on hull\")\nvar inspectdetails = iif($feature.HullInspectedBoolean == \"Yes\" && $feature.BoatPresentBoolean == \"Yes\", LOF + TextFormatting.NewLine + Targetpest,\"No hull inspection done\")\nvar label = boatdetails + TextFormatting.NewLine + inspectdetails\nreturn label",
+						"name": "expr0",
+						"returnType": "string",
+						"title": "Inspection details"
+					}
+				],
+				"fieldInfos": [
+					{
+						"fieldName": "OBJECTID",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "OBJECTID",
+						"visible": true
+					},
+					{
+						"fieldName": "BoatID",
+						"isEditable": true,
+						"label": "BoatID",
+						"visible": true
+					},
+					{
+						"fieldName": "DateChecked",
+						"isEditable": true,
+						"label": "DateChecked",
+						"visible": true
+					},
+					{
+						"fieldName": "Colour1",
+						"isEditable": true,
+						"label": "Hull Colour",
+						"visible": true
+					},
+					{
+						"fieldName": "Colour2",
+						"isEditable": true,
+						"label": "Trim Colour",
+						"visible": true
+					},
+					{
+						"fieldName": "BoatName",
+						"isEditable": true,
+						"label": "BoatName",
+						"visible": true
+					},
+					{
+						"fieldName": "GUID_Boat",
+						"isEditable": true,
+						"label": "GUID_Boat",
+						"visible": true
+					},
+					{
+						"fieldName": "BoatType",
+						"isEditable": true,
+						"label": "BoatType",
+						"visible": true
+					},
+					{
+						"fieldName": "GlobalID",
+						"isEditable": true,
+						"label": "GlobalID",
+						"visible": true
+					},
+					{
+						"fieldName": "Comments",
+						"isEditable": true,
+						"label": "Comments",
+						"visible": true
+					},
+					{
+						"fieldName": "BoatLength",
+						"isEditable": true,
+						"label": "BoatLength",
+						"visible": true
+					},
+					{
+						"fieldName": "LevelOfFoul",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "LevelOfFoul",
+						"visible": true
+					},
+					{
+						"fieldName": "PestFound",
+						"isEditable": true,
+						"label": "PestFound",
+						"visible": true
+					},
+					{
+						"fieldName": "PestFoundBoolean",
+						"isEditable": true,
+						"label": "PestFoundBoolean",
+						"visible": true
+					},
+					{
+						"fieldName": "PestFoundOtherText",
+						"isEditable": true,
+						"label": "PestFoundOtherText",
+						"visible": true
+					},
+					{
+						"fieldName": "LevelOfFoulBoolean",
+						"isEditable": true,
+						"label": "LevelOfFoulBoolean",
+						"visible": true
+					},
+					{
+						"fieldName": "DocumentURL",
+						"isEditable": true,
+						"label": "DocumentURL",
+						"visible": true
+					},
+					{
+						"fieldName": "HullInspectedBoolean",
+						"isEditable": true,
+						"label": "HullInspectedBoolean",
+						"visible": true
+					},
+					{
+						"fieldName": "BoatPresentBoolean",
+						"isEditable": true,
+						"label": "BoatPresentBoolean",
+						"visible": true
+					},
+					{
+						"fieldName": "SameBoatBoolean",
+						"isEditable": true,
+						"label": "SameBoatBoolean",
+						"visible": true
+					},
+					{
+						"fieldName": "BoatNameBoolean",
+						"isEditable": true,
+						"label": "BoatNameBoolean",
+						"visible": true
+					},
+					{
+						"fieldName": "AttachmentCount",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "AttachmentCount",
+						"visible": true
+					},
+					{
+						"fieldName": "AttachmentID",
+						"isEditable": true,
+						"label": "AttachmentID",
+						"visible": true
+					},
+					{
+						"fieldName": "MooringBlockChecked",
+						"isEditable": true,
+						"label": "Mooring Block Checked",
+						"visible": true
+					},
+					{
+						"fieldName": "MostRecentFromParent",
+						"isEditable": true,
+						"label": "MostRecentFromParent",
+						"visible": true
+					},
+					{
+						"fieldName": "HullColourOther",
+						"isEditable": true,
+						"label": "Hull Colour Other",
+						"visible": true
+					},
+					{
+						"fieldName": "TrimColourOther",
+						"isEditable": true,
+						"label": "Trim Colour Other",
+						"visible": true
+					},
+					{
+						"fieldName": "BoatTypeOther",
+						"isEditable": true,
+						"label": "Boat Type Other",
+						"visible": true
+					},
+					{
+						"fieldName": "NumberOfMasts",
+						"format": {
+							"digitSeparator": false,
+							"places": 0
+						},
+						"isEditable": true,
+						"label": "Number of masts",
+						"visible": true
+					},
+					{
+						"fieldName": "MSANumberBoolean",
+						"isEditable": true,
+						"label": "MSA number boolean",
+						"visible": true
+					},
+					{
+						"fieldName": "MSANumber",
+						"isEditable": true,
+						"label": "MSANumber",
+						"visible": true
+					},
+					{
+						"fieldName": "HullInspectionNotes",
+						"isEditable": true,
+						"label": "Hull inspection notes",
+						"visible": true
+					},
+					{
+						"fieldName": "CreationDate",
+						"isEditable": true,
+						"label": "CreationDate",
+						"visible": true
+					},
+					{
+						"fieldName": "Creator",
+						"isEditable": true,
+						"label": "Creator",
+						"visible": true
+					},
+					{
+						"fieldName": "EditDate",
+						"isEditable": true,
+						"label": "EditDate",
+						"visible": true
+					},
+					{
+						"fieldName": "Editor",
+						"isEditable": true,
+						"label": "Editor",
+						"visible": true
+					},
+					{
+						"fieldName": "PlaceID",
+						"isEditable": true,
+						"label": "Place ID",
+						"visible": true
+					},
+					{
+						"fieldName": "Compliant",
+						"isEditable": true,
+						"label": "Compliant",
+						"visible": true
+					},
+					{
+						"fieldName": "UserSelectBoatName",
+						"isEditable": true,
+						"label": "UserSelectBoatName",
+						"visible": true
+					},
+					{
+						"fieldName": "ThenSelectBoatCode",
+						"isEditable": true,
+						"label": "ThenSelectBoatCode",
+						"visible": true
+					},
+					{
+						"fieldName": "PreviousBoatName",
+						"isEditable": true,
+						"label": "PreviousBoatName",
+						"visible": true
+					},
+					{
+						"fieldName": "NewBoatBoolean",
+						"isEditable": true,
+						"label": "NewBoatBoolean",
+						"visible": true
+					},
+					{
+						"fieldName": "MediterraneanFanworm_Boolean",
+						"isEditable": true,
+						"label": "MediterraneanFanworm_Boolean",
+						"visible": true
+					},
+					{
+						"fieldName": "ClubbedTunicate_Boolean",
+						"isEditable": true,
+						"label": "ClubbedTunicate_Boolean",
+						"visible": true
+					},
+					{
+						"fieldName": "AsianPaddleCrab_Boolean",
+						"isEditable": true,
+						"label": "AsianPaddleCrab_Boolean",
+						"visible": true
+					},
+					{
+						"fieldName": "LightbulbAscidian_Boolean",
+						"isEditable": true,
+						"label": "LightbulbAscidian_Boolean",
+						"visible": true
+					},
+					{
+						"fieldName": "AustralianDropletTunicate_Boo",
+						"isEditable": true,
+						"label": "AustralianDropletTunicate_Boo",
+						"visible": true
+					},
+					{
+						"fieldName": "DoppelgangerCunjevoi_Boolean",
+						"isEditable": false,
+						"label": "DoppelgangerCunjevoi_Boolean",
+						"visible": true
+					},
+					{
+						"fieldName": "expression/expr0",
+						"isEditable": true,
+						"visible": false
+					}
+				],
+				"popupElements": [
+					{
+						"description": "",
+						"displayType": "preview",
+						"title": "",
+						"type": "attachments"
+					},
+					{
+						"text": "<p>Inspection done on {DateChecked}&nbsp;</p><p>{expression/expr0}&nbsp;</p>",
+						"type": "text"
+					}
+				],
+				"showAttachments": true,
+				"title": "{DateChecked} {BoatName}"
+			},
+			"title": "Boat record (Edit/View)",
+			"url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Marine_layer/FeatureServer/4"
+		}
+	],
+	"timeZone": "system",
+	"version": "2.34"
+}
+
