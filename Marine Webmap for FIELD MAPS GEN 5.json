@@ -583,7 +583,7 @@
         },
         {
             "id": "17de480085b-layer-8",
-            "title": "Berths, moorings and anchors",
+            "title": "Berths",
             "url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Marine_layer/FeatureServer/0",
             "itemId": "a6a3999c46784a048f99db8b8c23ac46",
             "layerType": "ArcGISFeatureLayer",
@@ -3875,7 +3875,7 @@
                     {
                         "fieldName": "BoatPresentBooleanMostRecentChe",
                         "isEditable": true,
-                        "label": "Was there a boat present?",
+                        "label": "Was there a boat present on the most recent check?",
                         "visible": true
                     }
                 ],
@@ -3884,7 +3884,7 @@
         },
         {
             "id": "197138394e9-layer-20",
-            "title": "Mussel Farm Line this is new",
+            "title": "Mussel Farm Line",
             "url": "https://services2.arcgis.com/geHbTEWts6uYVifz/arcgis/rest/services/Mussel_Farm_Inspection/FeatureServer/0",
             "itemId": "5ff0c4274ecf4d519e0aaeb0513c9a28",
             "layerType": "ArcGISFeatureLayer",
@@ -4577,7 +4577,7 @@
                         "initialState": "expanded"
                     },
                     {
-                        "description": "Double clicking these for current date/time",
+                        "description": "Double click this for current date/time",
                         "label": "Date Checked",
                         "type": "field",
                         "editable": true,
@@ -5565,9 +5565,9 @@
                     "latestWkid": 3857,
                     "wkid": 102100
                 },
-                "xmin": 19208606.29573372,
+                "xmin": 1.920860629573372E7,
                 "ymin": -5023308.340841083,
-                "xmax": 19908769.474825896,
+                "xmax": 1.9908769474825896E7,
                 "ymax": -4258938.057989359
             }
         }
