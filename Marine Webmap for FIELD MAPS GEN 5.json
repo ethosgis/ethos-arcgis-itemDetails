@@ -3395,6 +3395,18 @@
             "name": "expr/find-line-name",
             "returnType": "string",
             "title": "Find Line Name"
+          },
+          {
+            "expression": "round(Geometry($feature).X,0)",
+            "name": "expr/cal-easting",
+            "returnType": "number",
+            "title": "Cal Easting"
+          },
+          {
+            "expression": "round(Geometry($feature).Y,0)",
+            "name": "expr/cal-northing",
+            "returnType": "number",
+            "title": "Cal Northing"
           }
         ],
         "title": "Marine pests"
@@ -6187,8 +6199,8 @@
       }
     }
   },
-  "authoringApp": "ArcGISMapViewer",
-  "authoringAppVersion": "2025.2",
+  "authoringApp": "ArcGIS Field Maps Designer",
+  "authoringAppVersion": "25.2.2+3a58332",
   "initialState": {
     "viewpoint": {
       "rotation": 1.6946279888134455,
